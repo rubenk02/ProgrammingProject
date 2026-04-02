@@ -56,6 +56,26 @@ def clean_name_for_url(name):
     return clean
 
 
+TARGET_COLUMNS = [
+    "name", "age", "plays", "current_rank", "peak_rank", "elo_rank"
+]
+
+def _extract_field(text, label):
+    pattern = (
+        rf"{label}:\s*(.*?)"
+        r"(?=Age:|Plays:|Current rank:|Peak rank:|Elo rank:|Profile:|Titles/Finals|Photo:|$)"
+    )
+    m = re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL)
+    if not m:
+        return None
+    return " ".join(m.group(1).split()).strip()
+
+def _age_only(age_text):
+    if not age_text:
+        return None
+    m = re.search(r"\d+", age_text)
+    return m.group(0) if m else None
+
 def scrape_player_profile(name):
     clean = clean_name_for_url(name)
     url = f"https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p={clean}"
@@ -66,75 +86,94 @@ def scrape_player_profile(name):
     driver.get(url)
     time.sleep(1)
 
-    # Scroll to the bio area to trigger JS loading
-    driver.execute_script("window.scrollTo(0, 300);")
-    time.sleep(1)
-
-    # Try clicking Bio tab (some players need it)
     try:
         bio_tab = WebDriverWait(driver, 2).until(
-            EC.element_to_be_clickable((By.XPATH,'//span[contains(text(), "Bio")]'))
+            EC.element_to_be_clickable((By.XPATH, '//span[contains(text(), "Bio")]'))
         )
         bio_tab.click()
-        time.sleep(1)
     except:
         pass
 
-    # Wait up to 5 seconds for <p id="biog"> to appear
     try:
         WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.XPATH,'//p[@id="biog"]'))
+            EC.presence_of_element_located((By.XPATH, '//p[@id="biog"]'))
         )
     except:
-        print("BIO not found even after waiting")
-        return {"name": name}
+        return {
+            "name": name,
+            "age": None,
+            "plays": None,
+            "current_rank": None,
+            "peak_rank": None,
+            "elo_rank": None,
+        }
 
-    # Now extract rows
+    info = {
+        "name": name,
+        "age": None,
+        "plays": None,
+        "current_rank": None,
+        "peak_rank": None,
+        "elo_rank": None,
+    }
+
     rows = driver.find_elements(By.XPATH, '//p[@id="biog"]//table//tr')
-    print("Found bio rows:", len(rows))
-
-    info = {"name": name}
-
     for r in rows:
-        text = r.text.strip()
-        
-        # Skip empty or weird header lines
-        if not text or "@" in text and "age" not in text.lower():
-            continue
-        
-        # Split on the first ":" only
-        if ":" in text:
-            key, val = text.split(":", 1)
-            key = key.strip().capitalize() # makes "Age", "Plays", "Current rank"
-            val = val.strip()
-
-        # Remove "Photo:" and "Titles/Finals" noise
-        if key.lower() in ["photo", "titles/finals"]:
+        tds = r.find_elements(By.TAG_NAME, "td")
+        if len(tds) < 2:
             continue
 
-        info[key] = val
-        print("Extracted:", key, "=", val.strip())
+        raw_key = tds[0].text.strip().lower().replace(":", "")
+        raw_val = " ".join(tds[1].text.split()).strip()
+
+        if not raw_val:
+            continue
+
+        if raw_key == "age":
+            info["age"] = _age_only(raw_val)
+        elif raw_key == "plays":
+            info["plays"] = raw_val
+        elif raw_key == "current rank":
+            info["current_rank"] = raw_val
+        elif raw_key == "peak rank":
+            info["peak_rank"] = raw_val
+        elif raw_key == "elo rank":
+            info["elo_rank"] = raw_val
+
+    biog_text = driver.find_element(By.XPATH, '//p[@id="biog"]').text
+    biog_text = " ".join(biog_text.split())
+
+    if not info["age"]:
+        info["age"] = _age_only(_extract_field(biog_text, "Age"))
+    if not info["plays"]:
+        info["plays"] = _extract_field(biog_text, "Plays")
+    if not info["current_rank"]:
+        info["current_rank"] = _extract_field(biog_text, "Current rank")
+    if not info["peak_rank"]:
+        info["peak_rank"] = _extract_field(biog_text, "Peak rank")
+    if not info["elo_rank"]:
+        info["elo_rank"] = _extract_field(biog_text, "Elo rank")
 
     return info
 
 def main():
     players = get_top20_players()
     all_rows = []
+
     for p in players:
         try:
-            rows = scrape_player_profile(p)
-            all_rows.append(rows)
+            all_rows.append(scrape_player_profile(p))
         except Exception as e:
             print("Error with player", p, e)
-        time.sleep(1)
 
     df = pd.DataFrame(all_rows)
-    
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(base_dir, "..", "data", "players_profiles.csv")
+    df = df[TARGET_COLUMNS]
 
+    df["age"] = pd.to_numeric(df["age"], errors="coerce").astype("Int64")
+
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(base_dir, "..", "data", "players_top20_profiles.csv")
     df.to_csv(data_path, index=False)
-    print("Saved", data_path)
 
 if __name__ == '__main__':
     main()
