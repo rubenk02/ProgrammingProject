@@ -1,4 +1,5 @@
 date,tournament,surface,source_player,rd,rk,vrk,winner,loser,score
+5-Apr-2026,Monte-Carlo,Clay,Jannik Sinner,R16,2,53,,,Live Scores
 5-Apr-2026,Monte-Carlo,Clay,Jannik Sinner,R32,2,34,Jannik Sinner,Ugo Humbert,6-3 6-0
 18-Mar-2026,Miami Masters,Hard,Jannik Sinner,F,2,22,Jannik Sinner,Jiri Lehecka,6-4 6-4
 18-Mar-2026,Miami Masters,Hard,Jannik Sinner,SF,2,4,Jannik Sinner,Alexander Zverev,6-3 7-6(4)
@@ -78,6 +79,7 @@ date,tournament,surface,source_player,rd,rk,vrk,winner,loser,score
 7-May-2025,Rome Masters,Clay,Jannik Sinner,R16,1,18,Jannik Sinner,Francisco Cerundolo,7-6(2) 6-3
 7-May-2025,Rome Masters,Clay,Jannik Sinner,R32,1,93,Jannik Sinner,Jesper De Jong,6-4 6-2
 7-May-2025,Rome Masters,Clay,Jannik Sinner,R64,1,99,Jannik Sinner,Mariano Navone,6-3 6-4
+5-Apr-2026,Monte-Carlo,Clay,Carlos Alcaraz,R16,1,30,,,Live Scores
 5-Apr-2026,Monte-Carlo,Clay,Carlos Alcaraz,R32,1,65,Carlos Alcaraz,Sebastian Baez,6-1 6-3
 18-Mar-2026,Miami Masters,Hard,Carlos Alcaraz,R32,1,36,Sebastian Korda,Carlos Alcaraz,6-3 5-7 6-4
 18-Mar-2026,Miami Masters,Hard,Carlos Alcaraz,R64,1,39,Carlos Alcaraz,Joao Fonseca,6-4 6-4
@@ -196,7 +198,9 @@ date,tournament,surface,source_player,rd,rk,vrk,winner,loser,score
 18-May-2025,Geneva,Clay,Novak Djokovic,QF,6,39,Novak Djokovic,Matteo Arnaldi,6-4 6-4
 18-May-2025,Geneva,Clay,Novak Djokovic,R16,6,134,Novak Djokovic,Marton Fucsovics,6-2 6-3
 23-Apr-2025,Madrid Masters,Clay,Novak Djokovic,R64,5,44,Matteo Arnaldi,Novak Djokovic,6-3 6-4
-5-Apr-2026,Monte-Carlo,Clay,Alexander Zverev,R32,3,109,,,Live Scores
+5-Apr-2026,Monte-Carlo,Clay,Alexander Zverev,QF,3,40,,,Live Scores
+5-Apr-2026,Monte-Carlo,Clay,Alexander Zverev,R16,3,47,Alexander Zverev,Zizou Bergs,6-2 7-5
+5-Apr-2026,Monte-Carlo,Clay,Alexander Zverev,R32,3,109,Alexander Zverev,Cristian Garin,4-6 6-4 7-5
 18-Mar-2026,Miami Masters,Hard,Alexander Zverev,SF,4,2,Jannik Sinner,Alexander Zverev,6-3 7-6(4)
 18-Mar-2026,Miami Masters,Hard,Alexander Zverev,QF,4,19,Alexander Zverev,Francisco Cerundolo,6-1 6-2
 18-Mar-2026,Miami Masters,Hard,Alexander Zverev,R16,4,111,Alexander Zverev,Quentin Halys,7-6(4) 7-6(1)
@@ -349,3 +353,875 @@ date,tournament,surface,source_player,rd,rk,vrk,winner,loser,score
 23-Apr-2025,Madrid Masters,Clay,Daniil Medvedev,R16,10,32,Daniil Medvedev,Brandon Nakashima,3-6 6-1 6-4
 23-Apr-2025,Madrid Masters,Clay,Daniil Medvedev,R32,10,126,Daniil Medvedev,Juan Manuel Cerundolo,6-2 6-2
 23-Apr-2025,Madrid Masters,Clay,Daniil Medvedev,R64,10,71,Daniil Medvedev,Laslo Djere,W/O
+5-Apr-2026,Monte-Carlo,Clay,Alex De Minaur,R16,6,91,,,Live Scores
+5-Apr-2026,Monte-Carlo,Clay,Alex De Minaur,R32,6,24,De Minaur,Cameron Norrie,7-6(5) 2-6 6-2
+18-Mar-2026,Miami Masters,Hard,Alex De Minaur,R64,6,51,Stefanos Tsitsipas,De Minaur,6-3 7-6(3)
+4-Mar-2026,Indian Wells Masters,Hard,Alex De Minaur,R32,6,29,Cameron Norrie,De Minaur,6-4 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Alex De Minaur,R64,6,37,De Minaur,Sebastian Korda,4-6 6-4 6-4
+23-Feb-2026,Acapulco,Hard,Alex De Minaur,R32,6,103,Patrick Kypson,De Minaur,6-1 6-7(4) 7-6(4)
+9-Feb-2026,Rotterdam,Hard,Alex De Minaur,F,8,6,De Minaur,Felix Auger Aliassime,6-3 6-2
+9-Feb-2026,Rotterdam,Hard,Alex De Minaur,SF,8,36,De Minaur,Ugo Humbert,6-4 6-3
+9-Feb-2026,Rotterdam,Hard,Alex De Minaur,QF,8,65,De Minaur,Botic Van De Zandschulp,3-6 7-6(4) 7-5
+9-Feb-2026,Rotterdam,Hard,Alex De Minaur,R16,8,106,De Minaur,Stan Wawrinka,6-4 6-2
+9-Feb-2026,Rotterdam,Hard,Alex De Minaur,R32,8,42,De Minaur,Arthur Fils,7-6(3) 6-2
+19-Jan-2026,Australian Open,Hard,Alex De Minaur,QF,6,1,Carlos Alcaraz,De Minaur,7-5 6-2 6-1
+19-Jan-2026,Australian Open,Hard,Alex De Minaur,R16,6,10,De Minaur,Alexander Bublik,6-4 6-1 6-1
+19-Jan-2026,Australian Open,Hard,Alex De Minaur,R32,6,34,De Minaur,Frances Tiafoe,6-3 6-4 7-5
+19-Jan-2026,Australian Open,Hard,Alex De Minaur,R64,6,90,De Minaur,Hamad Medjedovic,6-7(5) 6-2 6-2 6-1
+19-Jan-2026,Australian Open,Hard,Alex De Minaur,R128,6,113,De Minaur,Mackenzie Mcdonald,6-2 6-2 6-3
+5-Jan-2026,United Cup,Hard,Alex De Minaur,QF,6,83,De Minaur,Hubert Hurkacz,6-4 4-6 6-4
+5-Jan-2026,United Cup,Hard,Alex De Minaur,RR,6,18,De Minaur,Jakub Mensik,6-4 6-1
+5-Jan-2026,United Cup,Hard,Alex De Minaur,RR,6,12,Casper Ruud,De Minaur,6-3 6-3
+9-Nov-2025,Tour Finals,Hard,Alex De Minaur,SF,7,2,Jannik Sinner,De Minaur,7-5 6-2
+9-Nov-2025,Tour Finals,Hard,Alex De Minaur,RR,7,1,Carlos Alcaraz,De Minaur,7-6(5) 6-2
+9-Nov-2025,Tour Finals,Hard,Alex De Minaur,RR,7,9,Lorenzo Musetti,De Minaur,7-5 3-6 7-5
+9-Nov-2025,Tour Finals,Hard,Alex De Minaur,RR,7,6,De Minaur,Taylor Fritz,7-6(3) 6-3
+27-Oct-2025,Paris Masters,Hard,Alex De Minaur,QF,6,16,Alexander Bublik,De Minaur,6-7(5) 6-4 7-5
+27-Oct-2025,Paris Masters,Hard,Alex De Minaur,R16,6,14,De Minaur,Karen Khachanov,6-2 6-2
+27-Oct-2025,Paris Masters,Hard,Alex De Minaur,R32,6,42,De Minaur,Gabriel Diallo,7-6(8) 4-6 6-3
+20-Oct-2025,Vienna,Hard,Alex De Minaur,SF,7,2,Jannik Sinner,De Minaur,6-3 6-4
+20-Oct-2025,Vienna,Hard,Alex De Minaur,QF,7,59,De Minaur,Matteo Berrettini,6-1 7-6(4)
+20-Oct-2025,Vienna,Hard,Alex De Minaur,R16,7,95,De Minaur,Filip Misolic,6-4 6-4
+20-Oct-2025,Vienna,Hard,Alex De Minaur,R32,7,154,De Minaur,Jurij Rodionov,6-4 6-1
+1-Oct-2025,Shanghai Masters,Hard,Alex De Minaur,QF,7,18,Daniil Medvedev,De Minaur,6-4 6-4
+1-Oct-2025,Shanghai Masters,Hard,Alex De Minaur,R16,7,51,De Minaur,Nuno Borges,7-5 6-2
+1-Oct-2025,Shanghai Masters,Hard,Alex De Minaur,R32,7,66,De Minaur,Kamil Majchrzak,6-1 7-5
+1-Oct-2025,Shanghai Masters,Hard,Alex De Minaur,R64,7,45,De Minaur,Camilo Ugo Carabelli,6-4 6-2
+25-Sep-2025,Beijing,Hard,Alex De Minaur,SF,8,2,Jannik Sinner,De Minaur,6-3 4-6 6-2
+25-Sep-2025,Beijing,Hard,Alex De Minaur,QF,8,19,De Minaur,Jakub Mensik,4-1 RET
+25-Sep-2025,Beijing,Hard,Alex De Minaur,R16,8,54,De Minaur,Arthur Rinderknech,6-3 3-6 7-6(2)
+25-Sep-2025,Beijing,Hard,Alex De Minaur,R32,8,89,De Minaur,Bu Yunchaokete,6-4 6-0
+19-Sep-2025,Laver Cup,Hard,Alex De Minaur,RR,8,3,De Minaur,Alexander Zverev,6-1 6-4
+19-Sep-2025,Laver Cup,Hard,Alex De Minaur,RR,8,17,De Minaur,Jakub Mensik,6-3 6-4
+13-Sep-2025,Davis Cup QLS R2: AUS vs BEL,Hard,Alex De Minaur,RR,8,91,Raphael Collignon,De Minaur,7-5 3-6 6-3
+13-Sep-2025,Davis Cup QLS R2: AUS vs BEL,Hard,Alex De Minaur,RR,8,46,De Minaur,Zizou Bergs,6-2 7-5
+25-Aug-2025,US Open,Hard,Alex De Minaur,QF,8,27,Felix Auger Aliassime,De Minaur,4-6 7-6(7) 7-5 7-6(4)
+25-Aug-2025,US Open,Hard,Alex De Minaur,R16,8,435,De Minaur,Leandro Riedi,6-3 6-2 6-1
+25-Aug-2025,US Open,Hard,Alex De Minaur,R32,8,56,De Minaur,Daniel Altmaier,6-7(7) 6-3 6-4 2-0 RET
+25-Aug-2025,US Open,Hard,Alex De Minaur,R64,8,112,De Minaur,Shintaro Mochizuki,6-2 6-4 6-2
+25-Aug-2025,US Open,Hard,Alex De Minaur,R128,8,81,De Minaur,Christopher Oconnell,6-3 6-4 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Alex De Minaur,R64,8,73,Reilly Opelka,De Minaur,7-6(6) 6-4
+27-Jul-2025,Canada Masters,Hard,Alex De Minaur,QF,8,7,Ben Shelton,De Minaur,6-3 6-4
+27-Jul-2025,Canada Masters,Hard,Alex De Minaur,R16,8,12,De Minaur,Frances Tiafoe,6-2 4-6 6-4
+27-Jul-2025,Canada Masters,Hard,Alex De Minaur,R32,8,78,De Minaur,Christopher Oconnell,W/O
+27-Jul-2025,Canada Masters,Hard,Alex De Minaur,R64,8,71,De Minaur,Francisco Comesana,6-4 6-2
+21-Jul-2025,Washington,Hard,Alex De Minaur,F,13,26,De Minaur,Alejandro Davidovich Fokina,5-7 6-1 7-6(3)
+21-Jul-2025,Washington,Hard,Alex De Minaur,SF,13,59,De Minaur,Corentin Moutet,6-4 6-3
+21-Jul-2025,Washington,Hard,Alex De Minaur,QF,13,32,De Minaur,Brandon Nakashima,6-4 6-4
+21-Jul-2025,Washington,Hard,Alex De Minaur,R16,13,25,De Minaur,Jiri Lehecka,7-6(4) 6-7(6) 6-4
+21-Jul-2025,Washington,Hard,Alex De Minaur,R32,13,75,De Minaur,Bu Yunchaokete,7-6(5) 6-2
+30-Jun-2025,Wimbledon,Grass,Alex De Minaur,R16,11,6,Novak Djokovic,De Minaur,1-6 6-4 6-4 6-4
+30-Jun-2025,Wimbledon,Grass,Alex De Minaur,R32,11,192,De Minaur,August Holmgren,6-4 7-6(5) 6-3
+30-Jun-2025,Wimbledon,Grass,Alex De Minaur,R64,11,115,De Minaur,Arthur Cazaux,4-6 6-2 6-4 6-0
+30-Jun-2025,Wimbledon,Grass,Alex De Minaur,R128,11,74,De Minaur,Roberto Carballes Baena,6-2 6-2 7-6(2)
+16-Jun-2025,Queen's Club,Grass,Alex De Minaur,R32,12,30,Jiri Lehecka,De Minaur,6-4 6-2
+26-May-2025,Roland Garros,Clay,Alex De Minaur,R64,9,62,Alexander Bublik,De Minaur,2-6 2-6 6-4 6-3 6-2
+26-May-2025,Roland Garros,Clay,Alex De Minaur,R128,9,59,De Minaur,Laslo Djere,6-3 6-4 7-6(6)
+7-May-2025,Rome Masters,Clay,Alex De Minaur,R16,8,12,Tommy Paul,De Minaur,7-5 6-3
+7-May-2025,Rome Masters,Clay,Alex De Minaur,R32,8,103,De Minaur,Hugo Dellien,6-4 6-4
+7-May-2025,Rome Masters,Clay,Alex De Minaur,R64,8,95,De Minaur,Luca Nardi,6-4 7-5
+23-Apr-2025,Madrid Masters,Clay,Alex De Minaur,R16,7,11,Lorenzo Musetti,De Minaur,6-4 6-2
+23-Apr-2025,Madrid Masters,Clay,Alex De Minaur,R32,7,30,De Minaur,Denis Shapovalov,6-3 7-6(3)
+23-Apr-2025,Madrid Masters,Clay,Alex De Minaur,R64,7,43,De Minaur,Lorenzo Sonego,6-2 6-3
+14-Apr-2025,Barcelona,Clay,Alex De Minaur,QF,7,2,Carlos Alcaraz,De Minaur,7-5 6-3
+14-Apr-2025,Barcelona,Clay,Alex De Minaur,R16,7,74,De Minaur,Jacob Fearnley,6-1 6-2
+14-Apr-2025,Barcelona,Clay,Alex De Minaur,R32,7,46,De Minaur,Tomas Martin Etcheverry,6-4 6-4
+5-Apr-2026,Monte-Carlo,Clay,Felix Auger Aliassime,R16,7,12,Auger Aliassime,Casper Ruud,7-5 2-2 RET
+5-Apr-2026,Monte-Carlo,Clay,Felix Auger Aliassime,R32,7,51,Auger Aliassime,Marin Cilic,7-6(4) 6-3
+18-Mar-2026,Miami Masters,Hard,Felix Auger Aliassime,R32,8,53,Terence Atmane,Auger Aliassime,6-3 1-6 6-3
+18-Mar-2026,Miami Masters,Hard,Felix Auger Aliassime,R64,8,54,Auger Aliassime,Marton Fucsovics,7-6(3) 7-5
+4-Mar-2026,Indian Wells Masters,Hard,Felix Auger Aliassime,R16,9,32,Arthur Fils,Auger Aliassime,6-3 7-6(9)
+4-Mar-2026,Indian Wells Masters,Hard,Felix Auger Aliassime,R32,9,38,Auger Aliassime,Gabriel Diallo,6-7(5) 6-3 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Felix Auger Aliassime,R64,9,148,Auger Aliassime,Gael Monfils,6-7(5) 6-3 6-4
+23-Feb-2026,Dubai,Hard,Felix Auger Aliassime,SF,8,11,Daniil Medvedev,Auger Aliassime,6-4 6-2
+23-Feb-2026,Dubai,Hard,Felix Auger Aliassime,QF,8,24,Auger Aliassime,Jiri Lehecka,6-3 7-6(2)
+23-Feb-2026,Dubai,Hard,Felix Auger Aliassime,R16,8,58,Auger Aliassime,Giovanni Mpetshi Perricard,6-4 6-4
+23-Feb-2026,Dubai,Hard,Felix Auger Aliassime,R32,8,263,Auger Aliassime,Zhizhen Zhang,6-3 7-6(4)
+9-Feb-2026,Rotterdam,Hard,Felix Auger Aliassime,F,6,8,Alex De Minaur,Auger Aliassime,6-3 6-2
+9-Feb-2026,Rotterdam,Hard,Felix Auger Aliassime,SF,6,10,Auger Aliassime,Alexander Bublik,6-1 6-2
+9-Feb-2026,Rotterdam,Hard,Felix Auger Aliassime,QF,6,27,Auger Aliassime,Tallon Griekspoor,7-6(2) 6-2
+9-Feb-2026,Rotterdam,Hard,Felix Auger Aliassime,R16,6,79,Auger Aliassime,Hamad Medjedovic,6-4 6-4
+9-Feb-2026,Rotterdam,Hard,Felix Auger Aliassime,R32,6,50,Auger Aliassime,Alexei Popyrin,7-5 6-3
+2-Feb-2026,Montpellier,Hard,Felix Auger Aliassime,F,8,70,Auger Aliassime,Adrian Mannarino,6-3 7-6(4)
+2-Feb-2026,Montpellier,Hard,Felix Auger Aliassime,SF,8,150,Auger Aliassime,Titouan Droguet,6-4 6-7(5) 6-1
+2-Feb-2026,Montpellier,Hard,Felix Auger Aliassime,QF,8,42,Auger Aliassime,Arthur Fils,6-4 6-2
+2-Feb-2026,Montpellier,Hard,Felix Auger Aliassime,R16,8,113,Auger Aliassime,Stan Wawrinka,6-4 7-6(3)
+19-Jan-2026,Australian Open,Hard,Felix Auger Aliassime,R128,8,46,Nuno Borges,Auger Aliassime,3-6 6-4 6-4 0-0 RET
+5-Jan-2026,United Cup,Hard,Felix Auger Aliassime,RR,5,42,Zizou Bergs,Auger Aliassime,6-4 6-2
+5-Jan-2026,United Cup,Hard,Felix Auger Aliassime,RR,5,464,Auger Aliassime,Zhizhen Zhang,6-4 6-4
+9-Nov-2025,Tour Finals,Hard,Felix Auger Aliassime,SF,8,1,Carlos Alcaraz,Auger Aliassime,6-2 6-4
+9-Nov-2025,Tour Finals,Hard,Felix Auger Aliassime,RR,8,2,Jannik Sinner,Auger Aliassime,7-5 6-1
+9-Nov-2025,Tour Finals,Hard,Felix Auger Aliassime,RR,8,3,Auger Aliassime,Alexander Zverev,6-4 7-6(4)
+9-Nov-2025,Tour Finals,Hard,Felix Auger Aliassime,RR,8,5,Auger Aliassime,Ben Shelton,4-6 7-6(7) 7-5
+27-Oct-2025,Paris Masters,Hard,Felix Auger Aliassime,F,10,2,Jannik Sinner,Auger Aliassime,6-4 7-6(4)
+27-Oct-2025,Paris Masters,Hard,Felix Auger Aliassime,SF,10,16,Auger Aliassime,Alexander Bublik,7-6(3) 6-4
+27-Oct-2025,Paris Masters,Hard,Felix Auger Aliassime,QF,10,40,Auger Aliassime,Valentin Vacherot,6-2 6-2
+27-Oct-2025,Paris Masters,Hard,Felix Auger Aliassime,R16,10,50,Auger Aliassime,Daniel Altmaier,3-6 6-3 6-2
+27-Oct-2025,Paris Masters,Hard,Felix Auger Aliassime,R32,10,44,Auger Aliassime,Alexandre Muller,5-7 7-6(5) 7-6(4)
+27-Oct-2025,Paris Masters,Hard,Felix Auger Aliassime,R64,10,68,Auger Aliassime,Francisco Comesana,6-7(2) 6-3 6-3
+20-Oct-2025,Basel,Hard,Felix Auger Aliassime,QF,12,42,Jaume Munar,Auger Aliassime,6-3 0-0 RET
+20-Oct-2025,Basel,Hard,Felix Auger Aliassime,R16,12,89,Auger Aliassime,Marin Cilic,7-6(2) 7-6(2)
+20-Oct-2025,Basel,Hard,Felix Auger Aliassime,R32,12,41,Auger Aliassime,Gabriel Diallo,6-2 7-5
+13-Oct-2025,Brussels,Hard,Felix Auger Aliassime,F,13,17,Auger Aliassime,Jiri Lehecka,7-6(2) 6-7(6) 6-2
+13-Oct-2025,Brussels,Hard,Felix Auger Aliassime,SF,13,90,Auger Aliassime,Raphael Collignon,7-6(2) 6-4
+13-Oct-2025,Brussels,Hard,Felix Auger Aliassime,QF,13,111,Auger Aliassime,Eliot Spizzirri,6-2 7-6(6)
+13-Oct-2025,Brussels,Hard,Felix Auger Aliassime,R16,13,67,Auger Aliassime,Damir Dzumhur,7-6(3) 4-6 7-6(5)
+1-Oct-2025,Shanghai Masters,Hard,Felix Auger Aliassime,QF,13,54,Arthur Rinderknech,Auger Aliassime,6-3 6-4
+1-Oct-2025,Shanghai Masters,Hard,Felix Auger Aliassime,R16,13,9,Auger Aliassime,Lorenzo Musetti,6-4 6-2
+1-Oct-2025,Shanghai Masters,Hard,Felix Auger Aliassime,R32,13,81,Auger Aliassime,Jesper De Jong,6-4 7-5
+1-Oct-2025,Shanghai Masters,Hard,Felix Auger Aliassime,R64,13,74,Auger Aliassime,Alejandro Tabilo,6-3 6-3
+25-Aug-2025,US Open,Hard,Felix Auger Aliassime,SF,27,1,Jannik Sinner,Auger Aliassime,6-1 3-6 6-3 6-4
+25-Aug-2025,US Open,Hard,Felix Auger Aliassime,QF,27,8,Auger Aliassime,Alex De Minaur,4-6 7-6(7) 7-5 7-6(4)
+25-Aug-2025,US Open,Hard,Felix Auger Aliassime,R16,27,15,Auger Aliassime,Andrey Rublev,7-5 6-3 6-4
+25-Aug-2025,US Open,Hard,Felix Auger Aliassime,R32,27,3,Auger Aliassime,Alexander Zverev,4-6 7-6(7) 6-4 6-4
+25-Aug-2025,US Open,Hard,Felix Auger Aliassime,R64,27,94,Auger Aliassime,Roman Safiullin,6-1 7-6(4) 7-6(5)
+25-Aug-2025,US Open,Hard,Felix Auger Aliassime,R128,27,151,Auger Aliassime,Billy Harris,6-4 7-6(8) 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Felix Auger Aliassime,QF,28,1,Jannik Sinner,Auger Aliassime,6-0 6-2
+7-Aug-2025,Cincinnati Masters,Hard,Felix Auger Aliassime,R16,28,63,Auger Aliassime,Benjamin Bonzi,6-4 6-3
+7-Aug-2025,Cincinnati Masters,Hard,Felix Auger Aliassime,R32,28,70,Auger Aliassime,Arthur Rinderknech,7-6(4) 4-2 RET
+7-Aug-2025,Cincinnati Masters,Hard,Felix Auger Aliassime,R64,28,58,Auger Aliassime,Tomas Martin Etcheverry,6-2 7-6(3)
+27-Jul-2025,Canada Masters,Hard,Felix Auger Aliassime,R64,28,56,Fabian Marozsan,Auger Aliassime,6-4 6-4
+30-Jun-2025,Wimbledon,Grass,Felix Auger Aliassime,R64,28,125,Jan Lennard Struff,Auger Aliassime,3-6 7-6(9) 6-3 6-4
+30-Jun-2025,Wimbledon,Grass,Felix Auger Aliassime,R128,28,103,Auger Aliassime,James Duckworth,6-2 3-6 6-7(2) 6-4 6-4
+22-Jun-2025,Mallorca,Grass,Felix Auger Aliassime,SF,27,34,Tallon Griekspoor,Auger Aliassime,6-4 6-4
+22-Jun-2025,Mallorca,Grass,Felix Auger Aliassime,QF,27,73,Auger Aliassime,Hamad Medjedovic,3-6 6-1 6-4
+22-Jun-2025,Mallorca,Grass,Felix Auger Aliassime,R16,27,70,Auger Aliassime,Arthur Rinderknech,7-5 6-3
+16-Jun-2025,Halle,Grass,Felix Auger Aliassime,R16,27,22,Karen Khachanov,Auger Aliassime,6-3 1-6 6-3
+16-Jun-2025,Halle,Grass,Felix Auger Aliassime,R32,27,65,Auger Aliassime,Laslo Djere,6-3 6-7(6) 6-1
+9-Jun-2025,Stuttgart,Grass,Felix Auger Aliassime,SF,29,7,Taylor Fritz,Auger Aliassime,6-4 7-6(5)
+9-Jun-2025,Stuttgart,Grass,Felix Auger Aliassime,QF,29,281,Auger Aliassime,Justin Engel,7-6(3) 6-3
+9-Jun-2025,Stuttgart,Grass,Felix Auger Aliassime,R16,29,36,Auger Aliassime,Giovanni Mpetshi Perricard,6-4 6-4
+26-May-2025,Roland Garros,Clay,Felix Auger Aliassime,R128,27,36,Matteo Arnaldi,Auger Aliassime,5-7 2-6 6-3 6-4 6-2
+18-May-2025,Hamburg,Clay,Felix Auger Aliassime,SF,30,17,Andrey Rublev,Auger Aliassime,6-1 6-4
+18-May-2025,Hamburg,Clay,Felix Auger Aliassime,QF,30,40,Auger Aliassime,Alexandre Muller,7-6(4) 6-7(6) 6-3
+18-May-2025,Hamburg,Clay,Felix Auger Aliassime,R16,30,32,Auger Aliassime,Giovanni Mpetshi Perricard,6-2 6-4
+18-May-2025,Hamburg,Clay,Felix Auger Aliassime,R32,30,66,Auger Aliassime,Daniel Altmaier,6-3 6-3
+27-Apr-2025,Estoril CH,Clay,Felix Auger Aliassime,R16,19,237,Andrea Pellegrino,Auger Aliassime,7-5 6-4
+23-Apr-2025,Madrid Masters,Clay,Felix Auger Aliassime,R64,19,126,Juan Manuel Cerundolo,Auger Aliassime,7-6(5) 6-4
+14-Apr-2025,Munich,Clay,Felix Auger Aliassime,R32,19,70,Mariano Navone,Auger Aliassime,2-6 6-4 7-6(3)
+18-Mar-2026,Miami Masters,Hard,Taylor Fritz,R16,7,22,Jiri Lehecka,Taylor Fritz,6-4 6-7(4) 6-2
+18-Mar-2026,Miami Masters,Hard,Taylor Fritz,R32,7,67,Taylor Fritz,Reilly Opelka,6-3 6-4
+18-Mar-2026,Miami Masters,Hard,Taylor Fritz,R64,7,65,Taylor Fritz,Botic Van De Zandschulp,6-3 6-7(2) 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Taylor Fritz,R32,7,44,Alex Michelsen,Taylor Fritz,6-4 7-6(6)
+4-Mar-2026,Indian Wells Masters,Hard,Taylor Fritz,R64,7,87,Taylor Fritz,Jacob Fearnley,6-3 6-7(8) 6-1
+16-Feb-2026,Delray Beach,Hard,Taylor Fritz,QF,8,24,Tommy Paul,Taylor Fritz,6-4 6-3
+16-Feb-2026,Delray Beach,Hard,Taylor Fritz,R16,8,118,Taylor Fritz,(NG)Rafael Jodar,7-6(4) 6-4
+9-Feb-2026,Dallas,Hard,Taylor Fritz,F,7,9,Ben Shelton,Taylor Fritz,3-6 6-3 7-5
+9-Feb-2026,Dallas,Hard,Taylor Fritz,SF,7,61,Taylor Fritz,Marin Cilic,7-6(5) 7-6(3)
+9-Feb-2026,Dallas,Hard,Taylor Fritz,QF,7,53,Taylor Fritz,Sebastian Korda,6-7(2) 6-4 7-6(5)
+9-Feb-2026,Dallas,Hard,Taylor Fritz,R16,7,29,Taylor Fritz,Brandon Nakashima,6-3 6-4
+9-Feb-2026,Dallas,Hard,Taylor Fritz,R32,7,59,Taylor Fritz,Marcos Giron,6-4 5-7 7-6(1)
+19-Jan-2026,Australian Open,Hard,Taylor Fritz,R16,9,5,Lorenzo Musetti,Taylor Fritz,6-2 7-5 6-4
+19-Jan-2026,Australian Open,Hard,Taylor Fritz,R32,9,139,Taylor Fritz,Stan Wawrinka,7-6(5) 2-6 6-4 6-4
+19-Jan-2026,Australian Open,Hard,Taylor Fritz,R64,9,101,Taylor Fritz,Vit Kopriva,6-1 6-4 7-6(4)
+19-Jan-2026,Australian Open,Hard,Taylor Fritz,R128,9,58,Taylor Fritz,Valentin Royer,7-6(5) 5-7 6-1 6-3
+5-Jan-2026,United Cup,Hard,Taylor Fritz,SF,9,83,Hubert Hurkacz,Taylor Fritz,7-6(1) 7-6(2)
+5-Jan-2026,United Cup,Hard,Taylor Fritz,QF,9,34,Stefanos Tsitsipas,Taylor Fritz,6-4 7-5
+5-Jan-2026,United Cup,Hard,Taylor Fritz,RR,9,38,Taylor Fritz,Jaume Munar,7-6(4) 3-6 7-6(6)
+5-Jan-2026,United Cup,Hard,Taylor Fritz,RR,9,43,Sebastian Baez,Taylor Fritz,4-6 7-5 6-4
+9-Nov-2025,Tour Finals,Hard,Taylor Fritz,RR,6,1,Carlos Alcaraz,Taylor Fritz,6-7(2) 7-5 6-3
+9-Nov-2025,Tour Finals,Hard,Taylor Fritz,RR,6,9,Taylor Fritz,Lorenzo Musetti,6-3 6-4
+9-Nov-2025,Tour Finals,Hard,Taylor Fritz,RR,6,7,Alex De Minaur,Taylor Fritz,7-6(3) 6-3
+27-Oct-2025,Paris Masters,Hard,Taylor Fritz,R16,4,16,Alexander Bublik,Taylor Fritz,7-6(5) 6-2
+27-Oct-2025,Paris Masters,Hard,Taylor Fritz,R32,4,103,Taylor Fritz,Aleksandar Vukic,7-6(4) 6-2
+20-Oct-2025,Basel,Hard,Taylor Fritz,R16,4,24,Ugo Humbert,Taylor Fritz,6-3 6-4
+20-Oct-2025,Basel,Hard,Taylor Fritz,R32,4,39,Taylor Fritz,Valentin Vacherot,4-6 7-6(4) 7-5
+1-Oct-2025,Shanghai Masters,Hard,Taylor Fritz,R32,4,37,Giovanni Mpetshi Perricard,Taylor Fritz,6-4 7-5
+1-Oct-2025,Shanghai Masters,Hard,Taylor Fritz,R64,4,52,Taylor Fritz,Fabian Marozsan,2-6 7-6(4) 7-6(1)
+24-Sep-2025,Tokyo,Hard,Taylor Fritz,F,5,1,Carlos Alcaraz,Taylor Fritz,6-4 6-4
+24-Sep-2025,Tokyo,Hard,Taylor Fritz,SF,5,86,Taylor Fritz,Jenson Brooksby,6-4 6-3
+24-Sep-2025,Tokyo,Hard,Taylor Fritz,QF,5,74,Taylor Fritz,Sebastian Korda,6-3 6-7(5) 6-3
+24-Sep-2025,Tokyo,Hard,Taylor Fritz,R16,5,51,Taylor Fritz,Nuno Borges,7-5 7-6(4)
+24-Sep-2025,Tokyo,Hard,Taylor Fritz,R32,5,35,Taylor Fritz,Gabriel Diallo,4-6 6-3 7-6(3)
+19-Sep-2025,Laver Cup,Hard,Taylor Fritz,RR,5,1,Taylor Fritz,Carlos Alcaraz,6-3 6-2
+19-Sep-2025,Laver Cup,Hard,Taylor Fritz,RR,5,3,Taylor Fritz,Alexander Zverev,6-3 7-6(4)
+12-Sep-2025,Davis Cup QLS R2: USA vs CZE,Hard,Taylor Fritz,RR,5,17,Taylor Fritz,Jakub Mensik,6-4 6-3
+12-Sep-2025,Davis Cup QLS R2: USA vs CZE,Hard,Taylor Fritz,RR,5,16,Jiri Lehecka,Taylor Fritz,6-4 3-6 6-4
+25-Aug-2025,US Open,Hard,Taylor Fritz,QF,4,7,Novak Djokovic,Taylor Fritz,6-3 7-5 3-6 6-4
+25-Aug-2025,US Open,Hard,Taylor Fritz,R16,4,22,Taylor Fritz,Tomas Machac,6-4 6-3 6-3
+25-Aug-2025,US Open,Hard,Taylor Fritz,R32,4,175,Taylor Fritz,Jerome Kym,7-6(3) 6-7(9) 6-4 6-4
+25-Aug-2025,US Open,Hard,Taylor Fritz,R64,4,353,Taylor Fritz,Lloyd Harris,4-6 7-6(3) 6-2 6-4
+25-Aug-2025,US Open,Hard,Taylor Fritz,R128,4,101,Taylor Fritz,Emilio Nava,7-5 6-2 6-3
+7-Aug-2025,Cincinnati Masters,Hard,Taylor Fritz,R16,4,136,Terence Atmane,Taylor Fritz,3-6 7-5 6-3
+7-Aug-2025,Cincinnati Masters,Hard,Taylor Fritz,R32,4,36,Taylor Fritz,Lorenzo Sonego,7-6(4) 7-5
+7-Aug-2025,Cincinnati Masters,Hard,Taylor Fritz,R64,4,105,Taylor Fritz,Emilio Nava,6-4 6-4
+27-Jul-2025,Canada Masters,Hard,Taylor Fritz,SF,4,7,Ben Shelton,Taylor Fritz,6-4 6-3
+27-Jul-2025,Canada Masters,Hard,Taylor Fritz,QF,4,11,Taylor Fritz,Andrey Rublev,6-3 7-6(4)
+27-Jul-2025,Canada Masters,Hard,Taylor Fritz,R16,4,27,Taylor Fritz,Jiri Lehecka,7-6(4) 6-7(5) 7-6(5)
+27-Jul-2025,Canada Masters,Hard,Taylor Fritz,R32,4,36,Taylor Fritz,Gabriel Diallo,6-4 6-2
+27-Jul-2025,Canada Masters,Hard,Taylor Fritz,R64,4,89,Taylor Fritz,Roberto Carballes Baena,7-5 7-6(1)
+21-Jul-2025,Washington,Hard,Taylor Fritz,QF,4,26,Alejandro Davidovich Fokina,Taylor Fritz,7-6(3) 3-6 7-5
+21-Jul-2025,Washington,Hard,Taylor Fritz,R16,4,44,Taylor Fritz,Matteo Arnaldi,6-3 6-4
+21-Jul-2025,Washington,Hard,Taylor Fritz,R32,4,105,Taylor Fritz,Aleksandar Vukic,6-3 6-2
+30-Jun-2025,Wimbledon,Grass,Taylor Fritz,SF,5,2,Carlos Alcaraz,Taylor Fritz,6-4 5-7 6-3 7-6(6)
+30-Jun-2025,Wimbledon,Grass,Taylor Fritz,QF,5,20,Taylor Fritz,Karen Khachanov,6-3 6-4 1-6 7-6(4)
+30-Jun-2025,Wimbledon,Grass,Taylor Fritz,R16,5,44,Taylor Fritz,Jordan Thompson,6-1 3-0 RET
+30-Jun-2025,Wimbledon,Grass,Taylor Fritz,R32,5,27,Taylor Fritz,Alejandro Davidovich Fokina,6-4 6-3 6-7(5) 6-1
+30-Jun-2025,Wimbledon,Grass,Taylor Fritz,R64,5,40,Taylor Fritz,Gabriel Diallo,3-6 6-3 7-6(0) 4-6 6-3
+30-Jun-2025,Wimbledon,Grass,Taylor Fritz,R128,5,36,Taylor Fritz,Giovanni Mpetshi Perricard,6-7(6) 6-7(8) 6-4 7-6(6) 6-4
+23-Jun-2025,Eastbourne,Grass,Taylor Fritz,F,5,149,Taylor Fritz,(L)Jenson Brooksby,7-5 6-1
+23-Jun-2025,Eastbourne,Grass,Taylor Fritz,SF,5,28,Taylor Fritz,Alejandro Davidovich Fokina,6-3 3-6 6-1
+23-Jun-2025,Eastbourne,Grass,Taylor Fritz,QF,5,46,Taylor Fritz,Marcos Giron,7-5 4-6 7-5
+23-Jun-2025,Eastbourne,Grass,Taylor Fritz,R16,5,57,Taylor Fritz,Joao Fonseca,6-3 6-7(5) 7-5
+16-Jun-2025,Queen's Club,Grass,Taylor Fritz,R32,4,89,Corentin Moutet,Taylor Fritz,6-7(5) 7-6(7) 7-5
+9-Jun-2025,Stuttgart,Grass,Taylor Fritz,F,7,3,Taylor Fritz,Alexander Zverev,6-3 7-6(0)
+9-Jun-2025,Stuttgart,Grass,Taylor Fritz,SF,7,29,Taylor Fritz,Felix Auger Aliassime,6-4 7-6(5)
+9-Jun-2025,Stuttgart,Grass,Taylor Fritz,QF,7,112,Taylor Fritz,Marton Fucsovics,6-3 6-4
+9-Jun-2025,Stuttgart,Grass,Taylor Fritz,R16,7,47,Taylor Fritz,Quentin Halys,6-3 7-6(6)
+26-May-2025,Roland Garros,Clay,Taylor Fritz,R128,4,66,Daniel Altmaier,Taylor Fritz,7-5 3-6 6-3 6-1
+18-May-2025,Geneva,Clay,Taylor Fritz,QF,4,31,Hubert Hurkacz,Taylor Fritz,6-3 7-6(5)
+18-May-2025,Geneva,Clay,Taylor Fritz,R16,4,50,Taylor Fritz,Quentin Halys,6-4 7-6(5)
+7-May-2025,Rome Masters,Clay,Taylor Fritz,R64,4,45,Marcos Giron,Taylor Fritz,7-6(4) 7-6(3)
+23-Apr-2025,Madrid Masters,Clay,Taylor Fritz,R16,4,15,Casper Ruud,Taylor Fritz,7-5 6-4
+23-Apr-2025,Madrid Masters,Clay,Taylor Fritz,R32,4,62,Taylor Fritz,Benjamin Bonzi,4-6 7-5 0-0 RET
+23-Apr-2025,Madrid Masters,Clay,Taylor Fritz,R64,4,87,Taylor Fritz,Christopher Oconnell,6-1 6-4
+5-Apr-2026,Monte-Carlo,Clay,Lorenzo Musetti,R32,5,23,Valentin Vacherot,Lorenzo Musetti,7-6(6) 7-5
+4-Mar-2026,Indian Wells Masters,Hard,Lorenzo Musetti,R64,5,56,Marton Fucsovics,Lorenzo Musetti,7-5 6-1
+19-Jan-2026,Australian Open,Hard,Lorenzo Musetti,QF,5,4,Novak Djokovic,Lorenzo Musetti,4-6 3-6 3-1 RET
+19-Jan-2026,Australian Open,Hard,Lorenzo Musetti,R16,5,9,Lorenzo Musetti,Taylor Fritz,6-2 7-5 6-4
+19-Jan-2026,Australian Open,Hard,Lorenzo Musetti,R32,5,24,Lorenzo Musetti,Tomas Machac,5-7 6-4 6-2 5-7 6-2
+19-Jan-2026,Australian Open,Hard,Lorenzo Musetti,R64,5,40,Lorenzo Musetti,Lorenzo Sonego,6-3 6-3 6-4
+19-Jan-2026,Australian Open,Hard,Lorenzo Musetti,R128,5,72,Lorenzo Musetti,Raphael Collignon,4-6 7-6(3) 7-5 3-2 RET
+5-Jan-2026,Hong Kong,Hard,Lorenzo Musetti,F,7,11,Alexander Bublik,Lorenzo Musetti,7-6(2) 6-3
+5-Jan-2026,Hong Kong,Hard,Lorenzo Musetti,SF,7,16,Lorenzo Musetti,Andrey Rublev,6-7(3) 7-5 6-4
+5-Jan-2026,Hong Kong,Hard,Lorenzo Musetti,QF,7,150,Lorenzo Musetti,Coleman Wong,6-4 6-4
+5-Jan-2026,Hong Kong,Hard,Lorenzo Musetti,R16,7,57,Lorenzo Musetti,Tomas Martin Etcheverry,6-7(3) 6-2 6-4
+9-Nov-2025,Tour Finals,Hard,Lorenzo Musetti,RR,9,1,Carlos Alcaraz,Lorenzo Musetti,6-4 6-1
+9-Nov-2025,Tour Finals,Hard,Lorenzo Musetti,RR,9,6,Taylor Fritz,Lorenzo Musetti,6-3 6-4
+9-Nov-2025,Tour Finals,Hard,Lorenzo Musetti,RR,9,7,Lorenzo Musetti,Alex De Minaur,7-5 3-6 7-5
+2-Nov-2025,Athens,Hard,Lorenzo Musetti,F,9,5,Novak Djokovic,Lorenzo Musetti,4-6 6-3 7-5
+2-Nov-2025,Athens,Hard,Lorenzo Musetti,SF,9,52,Lorenzo Musetti,Sebastian Korda,6-0 5-7 7-5
+2-Nov-2025,Athens,Hard,Lorenzo Musetti,QF,9,43,Lorenzo Musetti,Alexandre Muller,6-2 6-4
+2-Nov-2025,Athens,Hard,Lorenzo Musetti,R16,9,159,Lorenzo Musetti,Stan Wawrinka,4-6 7-6(5) 6-4
+27-Oct-2025,Paris Masters,Hard,Lorenzo Musetti,R32,8,45,Lorenzo Sonego,Lorenzo Musetti,3-6 6-3 6-1
+20-Oct-2025,Vienna,Hard,Lorenzo Musetti,SF,8,3,Alexander Zverev,Lorenzo Musetti,6-4 7-5
+20-Oct-2025,Vienna,Hard,Lorenzo Musetti,QF,8,36,Lorenzo Musetti,Corentin Moutet,6-3 6-4
+20-Oct-2025,Vienna,Hard,Lorenzo Musetti,R16,8,60,Lorenzo Musetti,Tomas Martin Etcheverry,6-3 6-4
+20-Oct-2025,Vienna,Hard,Lorenzo Musetti,R32,8,67,Lorenzo Musetti,Hamad Medjedovic,6-4 6-3
+13-Oct-2025,Brussels,Hard,Lorenzo Musetti,QF,8,37,Giovanni Mpetshi Perricard,Lorenzo Musetti,6-4 7-6(8)
+13-Oct-2025,Brussels,Hard,Lorenzo Musetti,R16,8,139,Lorenzo Musetti,Yannick Hanfmann,7-6(3) 7-5
+1-Oct-2025,Shanghai Masters,Hard,Lorenzo Musetti,R16,9,13,Felix Auger Aliassime,Lorenzo Musetti,6-4 6-2
+1-Oct-2025,Shanghai Masters,Hard,Lorenzo Musetti,R32,9,29,Lorenzo Musetti,Luciano Darderi,7-5 7-6(1)
+1-Oct-2025,Shanghai Masters,Hard,Lorenzo Musetti,R64,9,62,Lorenzo Musetti,Francisco Comesana,6-4 6-0
+25-Sep-2025,Beijing,Hard,Lorenzo Musetti,QF,9,52,Learner Tien,Lorenzo Musetti,4-6 6-3 3-0 RET
+25-Sep-2025,Beijing,Hard,Lorenzo Musetti,R16,9,60,Lorenzo Musetti,Adrian Mannarino,6-3 6-3
+25-Sep-2025,Beijing,Hard,Lorenzo Musetti,R32,9,36,Lorenzo Musetti,Giovanni Mpetshi Perricard,7-6(3) 6-7(4) 6-4
+17-Sep-2025,Chengdu,Hard,Lorenzo Musetti,F,9,112,Alejandro Tabilo,Lorenzo Musetti,6-3 2-6 7-6(5)
+17-Sep-2025,Chengdu,Hard,Lorenzo Musetti,SF,9,96,Lorenzo Musetti,Alexander Shevchenko,6-3 6-1
+17-Sep-2025,Chengdu,Hard,Lorenzo Musetti,QF,9,114,Lorenzo Musetti,Nikoloz Basilashvili,6-3 6-3
+17-Sep-2025,Chengdu,Hard,Lorenzo Musetti,R16,9,121,Lorenzo Musetti,(NG)Dino Prizmic,7-5 3-6 6-2
+25-Aug-2025,US Open,Hard,Lorenzo Musetti,QF,10,1,Jannik Sinner,Lorenzo Musetti,6-1 6-4 6-2
+25-Aug-2025,US Open,Hard,Lorenzo Musetti,R16,10,44,Lorenzo Musetti,Jaume Munar,6-3 6-0 6-1
+25-Aug-2025,US Open,Hard,Lorenzo Musetti,R32,10,26,Lorenzo Musetti,Flavio Cobolli,6-3 6-2 2-0 RET
+25-Aug-2025,US Open,Hard,Lorenzo Musetti,R64,10,80,Lorenzo Musetti,David Goffin,6-4 6-0 6-2
+25-Aug-2025,US Open,Hard,Lorenzo Musetti,R128,10,37,Lorenzo Musetti,Giovanni Mpetshi Perricard,6-7(3) 6-3 6-4 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Lorenzo Musetti,R64,10,63,Benjamin Bonzi,Lorenzo Musetti,5-7 6-4 7-6(4)
+27-Jul-2025,Canada Masters,Hard,Lorenzo Musetti,R32,10,34,Alex Michelsen,Lorenzo Musetti,3-6 7-6(4) 6-4
+27-Jul-2025,Canada Masters,Hard,Lorenzo Musetti,R64,10,106,Lorenzo Musetti,James Duckworth,7-5 6-1
+21-Jul-2025,Washington,Hard,Lorenzo Musetti,R32,7,41,Cameron Norrie,Lorenzo Musetti,3-6 6-2 6-3
+30-Jun-2025,Wimbledon,Grass,Lorenzo Musetti,R128,7,126,Nikoloz Basilashvili,Lorenzo Musetti,6-2 4-6 7-5 6-1
+26-May-2025,Roland Garros,Clay,Lorenzo Musetti,SF,7,2,Carlos Alcaraz,Lorenzo Musetti,4-6 7-6(3) 6-0 2-0 RET
+26-May-2025,Roland Garros,Clay,Lorenzo Musetti,QF,7,16,Lorenzo Musetti,Frances Tiafoe,6-2 4-6 7-5 6-2
+26-May-2025,Roland Garros,Clay,Lorenzo Musetti,R16,7,10,Lorenzo Musetti,Holger Rune,7-5 3-6 6-3 6-2
+26-May-2025,Roland Garros,Clay,Lorenzo Musetti,R32,7,97,Lorenzo Musetti,Mariano Navone,4-6 6-4 6-3 6-2
+26-May-2025,Roland Garros,Clay,Lorenzo Musetti,R64,7,122,Lorenzo Musetti,Daniel Elahi Galan,6-4 6-0 6-4
+26-May-2025,Roland Garros,Clay,Lorenzo Musetti,R128,7,142,Lorenzo Musetti,Yannick Hanfmann,7-5 6-2 6-0
+7-May-2025,Rome Masters,Clay,Lorenzo Musetti,SF,9,3,Carlos Alcaraz,Lorenzo Musetti,6-3 7-6(4)
+7-May-2025,Rome Masters,Clay,Lorenzo Musetti,QF,9,2,Lorenzo Musetti,Alexander Zverev,7-6(1) 6-4
+7-May-2025,Rome Masters,Clay,Lorenzo Musetti,R16,9,11,Lorenzo Musetti,Daniil Medvedev,7-5 6-4
+7-May-2025,Rome Masters,Clay,Lorenzo Musetti,R32,9,29,Lorenzo Musetti,Brandon Nakashima,6-4 6-3
+7-May-2025,Rome Masters,Clay,Lorenzo Musetti,R64,9,130,Lorenzo Musetti,Otto Virtanen,6-3 6-2
+23-Apr-2025,Madrid Masters,Clay,Lorenzo Musetti,SF,11,6,Jack Draper,Lorenzo Musetti,6-3 7-6(4)
+23-Apr-2025,Madrid Masters,Clay,Lorenzo Musetti,QF,11,78,Lorenzo Musetti,Gabriel Diallo,6-4 6-3
+23-Apr-2025,Madrid Masters,Clay,Lorenzo Musetti,R16,11,7,Lorenzo Musetti,Alex De Minaur,6-4 6-2
+23-Apr-2025,Madrid Masters,Clay,Lorenzo Musetti,R32,11,18,Lorenzo Musetti,Stefanos Tsitsipas,7-5 7-6(3)
+23-Apr-2025,Madrid Masters,Clay,Lorenzo Musetti,R64,11,51,Lorenzo Musetti,Tomas Martin Etcheverry,7-6(3) 6-2
+18-Mar-2026,Miami Masters,Hard,Arthur Fils,SF,31,22,Jiri Lehecka,Arthur Fils,6-2 6-2
+18-Mar-2026,Miami Masters,Hard,Arthur Fils,QF,31,23,Arthur Fils,Tommy Paul,6-7(3) 7-6(4) 7-6(6)
+18-Mar-2026,Miami Masters,Hard,Arthur Fils,R16,31,25,Arthur Fils,Valentin Vacherot,6-4 6-7(4) 6-4
+18-Mar-2026,Miami Masters,Hard,Arthur Fils,R32,31,51,Arthur Fils,Stefanos Tsitsipas,6-0 6-1
+18-Mar-2026,Miami Masters,Hard,Arthur Fils,R64,31,272,Arthur Fils,Darwin Blanch,6-2 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Arthur Fils,QF,32,4,Alexander Zverev,Arthur Fils,6-2 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Arthur Fils,R16,32,9,Arthur Fils,Felix Auger Aliassime,6-3 7-6(9)
+4-Mar-2026,Indian Wells Masters,Hard,Arthur Fils,R32,32,56,Arthur Fils,Marton Fucsovics,6-3 7-5
+4-Mar-2026,Indian Wells Masters,Hard,Arthur Fils,R64,32,119,Arthur Fils,Dino Prizmic,6-2 3-2 RET
+16-Feb-2026,Doha,Hard,Arthur Fils,F,40,1,Carlos Alcaraz,Arthur Fils,6-2 6-1
+16-Feb-2026,Doha,Hard,Arthur Fils,SF,40,16,Arthur Fils,Jakub Mensik,6-4 7-6(4)
+16-Feb-2026,Doha,Hard,Arthur Fils,QF,40,22,Arthur Fils,Jiri Lehecka,6-3 6-3
+16-Feb-2026,Doha,Hard,Arthur Fils,R16,40,72,Arthur Fils,Quentin Halys,6-1 7-6(7)
+16-Feb-2026,Doha,Hard,Arthur Fils,R32,40,56,Arthur Fils,Kamil Majchrzak,6-7(5) 6-3 6-4
+9-Feb-2026,Rotterdam,Hard,Arthur Fils,R32,42,8,Alex De Minaur,Arthur Fils,7-6(3) 6-2
+2-Feb-2026,Montpellier,Hard,Arthur Fils,QF,42,8,Felix Auger Aliassime,Arthur Fils,6-4 6-2
+2-Feb-2026,Montpellier,Hard,Arthur Fils,R16,42,174,Arthur Fils,Ugo Blanchet,7-6(4) 7-5
+2-Feb-2026,Montpellier,Hard,Arthur Fils,R32,42,56,Arthur Fils,Valentin Royer,7-6(7) 6-7(4) 6-2
+27-Jul-2025,Canada Masters,Hard,Arthur Fils,R32,21,27,Jiri Lehecka,Arthur Fils,3-6 6-3 6-4
+27-Jul-2025,Canada Masters,Hard,Arthur Fils,R64,21,93,Arthur Fils,Pablo Carreno Busta,6-3 6-4
+26-May-2025,Roland Garros,Clay,Arthur Fils,R32,14,15,Andrey Rublev,Arthur Fils,W/O
+26-May-2025,Roland Garros,Clay,Arthur Fils,R64,14,57,Arthur Fils,Jaume Munar,7-6(3) 7-6(4) 2-6 0-6 6-4
+26-May-2025,Roland Garros,Clay,Arthur Fils,R128,14,149,Arthur Fils,Nicolas Jarry,6-3 6-4 6-7(6) 6-3
+7-May-2025,Rome Masters,Clay,Arthur Fils,R16,14,2,Alexander Zverev,Arthur Fils,7-6(3) 6-1
+7-May-2025,Rome Masters,Clay,Arthur Fils,R32,14,19,Arthur Fils,Stefanos Tsitsipas,2-6 6-4 6-2
+7-May-2025,Rome Masters,Clay,Arthur Fils,R64,14,35,Arthur Fils,Tallon Griekspoor,6-2 6-2
+23-Apr-2025,Madrid Masters,Clay,Arthur Fils,R64,14,70,Francisco Comesana,Arthur Fils,7-6(4) 6-4
+14-Apr-2025,Barcelona,Clay,Arthur Fils,SF,14,2,Carlos Alcaraz,Arthur Fils,6-2 6-4
+14-Apr-2025,Barcelona,Clay,Arthur Fils,QF,14,16,Arthur Fils,Stefanos Tsitsipas,2-0 RET
+14-Apr-2025,Barcelona,Clay,Arthur Fils,R16,14,49,Arthur Fils,Pedro Martinez,6-3 6-2
+14-Apr-2025,Barcelona,Clay,Arthur Fils,R32,14,99,Arthur Fils,Pablo Carreno Busta,7-6(6) 6-3
+30-Mar-2026,Houston,Clay,Ben Shelton,QF,9,83,Thiago Agustin Tirante,Ben Shelton,6-7(5) 6-3 6-4
+30-Mar-2026,Houston,Clay,Ben Shelton,R16,9,263,Ben Shelton,Zhizhen Zhang,7-6(5) 7-6(3)
+18-Mar-2026,Miami Masters,Hard,Ben Shelton,R64,9,84,Alexander Shevchenko,Ben Shelton,6-7(3) 7-6(3) 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Ben Shelton,R32,8,27,Learner Tien,Ben Shelton,7-6(3) 4-6 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Ben Shelton,R64,8,68,Ben Shelton,Reilly Opelka,6-7(3) 7-6(4) 6-3
+9-Feb-2026,Dallas,Hard,Ben Shelton,F,9,7,Ben Shelton,Taylor Fritz,3-6 6-3 7-5
+9-Feb-2026,Dallas,Hard,Ben Shelton,SF,9,40,Ben Shelton,Denis Shapovalov,4-6 6-4 7-6(4)
+9-Feb-2026,Dallas,Hard,Ben Shelton,QF,9,66,Ben Shelton,Miomir Kecmanovic,5-7 6-3 6-4
+9-Feb-2026,Dallas,Hard,Ben Shelton,R16,9,52,Ben Shelton,Adrian Mannarino,7-6(2) 6-7(4) 6-3
+9-Feb-2026,Dallas,Hard,Ben Shelton,R32,9,38,Ben Shelton,Gabriel Diallo,6-4 6-4
+19-Jan-2026,Australian Open,Hard,Ben Shelton,QF,7,2,Jannik Sinner,Ben Shelton,6-3 6-4 6-4
+19-Jan-2026,Australian Open,Hard,Ben Shelton,R16,7,13,Ben Shelton,Casper Ruud,3-6 6-4 6-3 6-4
+19-Jan-2026,Australian Open,Hard,Ben Shelton,R32,7,31,Ben Shelton,Valentin Vacherot,6-4 6-4 7-6(5)
+19-Jan-2026,Australian Open,Hard,Ben Shelton,R64,7,182,Ben Shelton,Dane Sweeny,6-3 6-2 6-2
+19-Jan-2026,Australian Open,Hard,Ben Shelton,R128,7,33,Ben Shelton,Ugo Humbert,6-3 7-6(2) 7-6(5)
+12-Jan-2026,Auckland,Hard,Ben Shelton,QF,8,39,Sebastian Baez,Ben Shelton,7-5 6-3
+12-Jan-2026,Auckland,Hard,Ben Shelton,R16,8,68,Ben Shelton,Francisco Comesana,7-5 6-4
+9-Nov-2025,Tour Finals,Hard,Ben Shelton,RR,5,2,Jannik Sinner,Ben Shelton,6-3 7-6(3)
+9-Nov-2025,Tour Finals,Hard,Ben Shelton,RR,5,3,Alexander Zverev,Ben Shelton,6-3 7-6(6)
+9-Nov-2025,Tour Finals,Hard,Ben Shelton,RR,5,8,Felix Auger Aliassime,Ben Shelton,4-6 7-6(7) 7-5
+27-Oct-2025,Paris Masters,Hard,Ben Shelton,QF,7,2,Jannik Sinner,Ben Shelton,6-3 6-3
+27-Oct-2025,Paris Masters,Hard,Ben Shelton,R16,7,17,Ben Shelton,Andrey Rublev,7-6(6) 6-3
+27-Oct-2025,Paris Masters,Hard,Ben Shelton,R32,7,23,Ben Shelton,Flavio Cobolli,7-6(4) 6-3
+20-Oct-2025,Basel,Hard,Ben Shelton,R16,6,42,Jaume Munar,Ben Shelton,6-3 6-4
+20-Oct-2025,Basel,Hard,Ben Shelton,R32,6,70,Ben Shelton,Kamil Majchrzak,6-7(2) 6-3 7-6(7)
+1-Oct-2025,Shanghai Masters,Hard,Ben Shelton,R64,6,83,David Goffin,Ben Shelton,6-2 6-4
+25-Aug-2025,US Open,Hard,Ben Shelton,R32,6,77,Adrian Mannarino,Ben Shelton,3-6 6-3 4-6 6-4 RET
+25-Aug-2025,US Open,Hard,Ben Shelton,R64,6,137,Ben Shelton,Pablo Carreno Busta,6-4 6-2 6-4
+25-Aug-2025,US Open,Hard,Ben Shelton,R128,6,135,Ben Shelton,Ignacio Buse,6-3 6-2 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Ben Shelton,QF,6,3,Alexander Zverev,Ben Shelton,6-2 6-2
+7-Aug-2025,Cincinnati Masters,Hard,Ben Shelton,R16,6,26,Ben Shelton,Jiri Lehecka,6-4 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Ben Shelton,R32,6,53,Ben Shelton,Roberto Bautista Agut,7-6(3) 6-3
+7-Aug-2025,Cincinnati Masters,Hard,Ben Shelton,R64,6,47,Ben Shelton,Camilo Ugo Carabelli,6-3 3-1 RET
+27-Jul-2025,Canada Masters,Hard,Ben Shelton,F,7,16,Ben Shelton,Karen Khachanov,6-7(5) 6-4 7-6(3)
+27-Jul-2025,Canada Masters,Hard,Ben Shelton,SF,7,4,Ben Shelton,Taylor Fritz,6-4 6-3
+27-Jul-2025,Canada Masters,Hard,Ben Shelton,QF,7,8,Ben Shelton,Alex De Minaur,6-3 6-4
+27-Jul-2025,Canada Masters,Hard,Ben Shelton,R16,7,17,Ben Shelton,Flavio Cobolli,6-4 4-6 7-6(1)
+27-Jul-2025,Canada Masters,Hard,Ben Shelton,R32,7,32,Ben Shelton,Brandon Nakashima,6-7(8) 6-2 7-6(5)
+27-Jul-2025,Canada Masters,Hard,Ben Shelton,R64,7,94,Ben Shelton,Adrian Mannarino,6-2 6-3
+21-Jul-2025,Washington,Hard,Ben Shelton,SF,8,26,Alejandro Davidovich Fokina,Ben Shelton,6-2 7-5
+21-Jul-2025,Washington,Hard,Ben Shelton,QF,8,11,Ben Shelton,Frances Tiafoe,7-6(2) 6-4
+21-Jul-2025,Washington,Hard,Ben Shelton,R16,8,35,Ben Shelton,Gabriel Diallo,6-3 6-2
+21-Jul-2025,Washington,Hard,Ben Shelton,R32,8,95,Ben Shelton,Mackenzie Mcdonald,6-3 6-4
+30-Jun-2025,Wimbledon,Grass,Ben Shelton,QF,10,1,Jannik Sinner,Ben Shelton,7-6(2) 6-4 6-4
+30-Jun-2025,Wimbledon,Grass,Ben Shelton,R16,10,47,Ben Shelton,Lorenzo Sonego,3-6 6-1 7-6(1) 7-5
+30-Jun-2025,Wimbledon,Grass,Ben Shelton,R32,10,105,Ben Shelton,Marton Fucsovics,6-3 7-6(4) 6-2
+30-Jun-2025,Wimbledon,Grass,Ben Shelton,R64,10,87,Ben Shelton,Rinky Hijikata,6-2 7-5 6-4
+30-Jun-2025,Wimbledon,Grass,Ben Shelton,R128,10,179,Ben Shelton,Alex Bolt,6-4 7-6(1) 7-6(4)
+22-Jun-2025,Mallorca,Grass,Ben Shelton,R16,10,67,Learner Tien,Ben Shelton,6-4 7-6(2)
+16-Jun-2025,Queen's Club,Grass,Ben Shelton,R32,10,80,Arthur Rinderknech,Ben Shelton,7-6(5) 7-6(4)
+9-Jun-2025,Stuttgart,Grass,Ben Shelton,SF,12,3,Alexander Zverev,Ben Shelton,7-6(8) 7-6(1)
+9-Jun-2025,Stuttgart,Grass,Ben Shelton,QF,12,33,Ben Shelton,Jiri Lehecka,6-4 6-4
+9-Jun-2025,Stuttgart,Grass,Ben Shelton,R16,12,132,Ben Shelton,Pierre Hugues Herbert,7-6(4) 7-5
+26-May-2025,Roland Garros,Clay,Ben Shelton,R16,13,2,Carlos Alcaraz,Ben Shelton,7-6(8) 6-3 4-6 6-4
+26-May-2025,Roland Garros,Clay,Ben Shelton,R32,13,167,Ben Shelton,Matteo Gigante,6-3 6-3 6-4
+26-May-2025,Roland Garros,Clay,Ben Shelton,R64,13,83,Ben Shelton,Hugo Gaston,W/O
+26-May-2025,Roland Garros,Clay,Ben Shelton,R128,13,44,Ben Shelton,Lorenzo Sonego,6-4 4-6 3-6 6-2 6-3
+7-May-2025,Rome Masters,Clay,Ben Shelton,R64,13,66,Jaume Munar,Ben Shelton,6-2 6-1
+23-Apr-2025,Madrid Masters,Clay,Ben Shelton,R32,13,23,Jakub Mensik,Ben Shelton,6-1 6-4
+23-Apr-2025,Madrid Masters,Clay,Ben Shelton,R64,13,85,Ben Shelton,Mariano Navone,4-6 7-6(5) 6-3
+14-Apr-2025,Munich,Clay,Ben Shelton,F,15,3,Alexander Zverev,Ben Shelton,6-2 6-4
+14-Apr-2025,Munich,Clay,Ben Shelton,SF,15,22,Ben Shelton,Francisco Cerundolo,2-6 7-6(7) 6-4
+14-Apr-2025,Munich,Clay,Ben Shelton,QF,15,47,Ben Shelton,Luciano Darderi,6-4 6-3
+14-Apr-2025,Munich,Clay,Ben Shelton,R16,15,89,Ben Shelton,Botic Van De Zandschulp,7-6(1) 6-3
+14-Apr-2025,Munich,Clay,Ben Shelton,R32,15,410,Ben Shelton,Borna Gojo,4-6 7-6(6) 7-6(3)
+30-Mar-2026,Houston,Clay,Tommy Paul,F,21,77,Tommy Paul,Roman Andres Burruchaga,6-1 3-6 7-5
+30-Mar-2026,Houston,Clay,Tommy Paul,SF,21,18,Tommy Paul,Frances Tiafoe,7-5 4-6 7-6(7)
+30-Mar-2026,Houston,Clay,Tommy Paul,QF,21,31,Tommy Paul,Tomas Martin Etcheverry,6-4 6-2
+30-Mar-2026,Houston,Clay,Tommy Paul,R16,21,101,Tommy Paul,Adolfo Daniel Vallejo,3-6 6-4 6-4
+18-Mar-2026,Miami Masters,Hard,Tommy Paul,QF,23,31,Arthur Fils,Tommy Paul,6-7(3) 7-6(4) 7-6(6)
+18-Mar-2026,Miami Masters,Hard,Tommy Paul,R16,23,32,Tommy Paul,Tomas Martin Etcheverry,6-1 6-3
+18-Mar-2026,Miami Masters,Hard,Tommy Paul,R32,23,72,Tommy Paul,Raphael Collignon,6-2 3-6 7-6(5)
+18-Mar-2026,Miami Masters,Hard,Tommy Paul,R64,23,43,Tommy Paul,Adrian Mannarino,6-2 2-6 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Tommy Paul,R32,24,35,Joao Fonseca,Tommy Paul,6-2 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Tommy Paul,R64,24,47,Tommy Paul,Zizou Bergs,6-1 6-2
+16-Feb-2026,Delray Beach,Hard,Tommy Paul,F,24,50,Sebastian Korda,Tommy Paul,6-4 6-3
+16-Feb-2026,Delray Beach,Hard,Tommy Paul,SF,24,23,Tommy Paul,Learner Tien,4-6 6-4 6-3
+16-Feb-2026,Delray Beach,Hard,Tommy Paul,QF,24,8,Tommy Paul,Taylor Fritz,6-4 6-3
+16-Feb-2026,Delray Beach,Hard,Tommy Paul,R16,24,93,Tommy Paul,Adam Walton,7-6(11) 6-3
+16-Feb-2026,Delray Beach,Hard,Tommy Paul,R32,24,34,Tommy Paul,Corentin Moutet,4-6 6-3 6-4
+9-Feb-2026,Dallas,Hard,Tommy Paul,R16,24,66,Miomir Kecmanovic,Tommy Paul,5-7 6-4 6-4
+9-Feb-2026,Dallas,Hard,Tommy Paul,R32,24,45,Tommy Paul,Jenson Brooksby,4-6 6-4 7-6(4)
+7-Feb-2026,Davis Cup QLS R1: USA vs HUN,Clay,Tommy Paul,RR,22,176,Tommy Paul,Zsombor Piros,7-6(3) 6-3
+19-Jan-2026,Australian Open,Hard,Tommy Paul,R16,20,1,Carlos Alcaraz,Tommy Paul,7-6(6) 6-4 7-5
+19-Jan-2026,Australian Open,Hard,Tommy Paul,R32,20,14,Tommy Paul,Alejandro Davidovich Fokina,6-1 6-1 0-0 RET
+19-Jan-2026,Australian Open,Hard,Tommy Paul,R64,20,103,Tommy Paul,Thiago Agustin Tirante,6-3 6-4 6-2
+19-Jan-2026,Australian Open,Hard,Tommy Paul,R128,20,56,Tommy Paul,Aleksandar Kovacevic,6-4 6-3 6-3
+12-Jan-2026,Adelaide,Hard,Tommy Paul,SF,21,35,Tomas Machac,Tommy Paul,2-6 6-3 6-3
+12-Jan-2026,Adelaide,Hard,Tommy Paul,QF,21,87,Tommy Paul,Aleksandar Vukic,6-3 6-2
+12-Jan-2026,Adelaide,Hard,Tommy Paul,R16,21,62,Tommy Paul,Reilly Opelka,6-4 6-4
+4-Jan-2026,Brisbane,Hard,Tommy Paul,R32,20,67,Giovanni Mpetshi Perricard,Tommy Paul,7-6(2) 3-6 7-6(6)
+25-Aug-2025,US Open,Hard,Tommy Paul,R32,14,24,Alexander Bublik,Tommy Paul,7-6(5) 6-7(4) 6-3 6-7(5) 6-1
+25-Aug-2025,US Open,Hard,Tommy Paul,R64,14,41,Tommy Paul,Nuno Borges,7-6(6) 6-3 5-7 5-7 7-5
+25-Aug-2025,US Open,Hard,Tommy Paul,R128,14,109,Tommy Paul,Elmer Moller,6-3 6-3 6-1
+7-Aug-2025,Cincinnati Masters,Hard,Tommy Paul,R32,16,89,Adrian Mannarino,Tommy Paul,5-7 6-3 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Tommy Paul,R64,16,66,Tommy Paul,Pedro Martinez,6-2 6-2
+30-Jun-2025,Wimbledon,Grass,Tommy Paul,R64,13,165,Sebastian Ofner,Tommy Paul,1-6 7-5 6-4 7-5
+30-Jun-2025,Wimbledon,Grass,Tommy Paul,R128,13,224,Tommy Paul,Johannus Monday,6-4 6-4 6-2
+23-Jun-2025,Eastbourne,Grass,Tommy Paul,R16,13,170,Daniel Evans,Tommy Paul,6-4 3-6 6-3
+26-May-2025,Roland Garros,Clay,Tommy Paul,QF,12,2,Carlos Alcaraz,Tommy Paul,6-0 6-1 6-4
+26-May-2025,Roland Garros,Clay,Tommy Paul,R16,12,25,Tommy Paul,Alexei Popyrin,6-3 6-3 6-3
+26-May-2025,Roland Garros,Clay,Tommy Paul,R32,12,24,Tommy Paul,Karen Khachanov,6-3 3-6 7-6(7) 3-6 6-3
+26-May-2025,Roland Garros,Clay,Tommy Paul,R64,12,124,Tommy Paul,Marton Fucsovics,4-6 2-6 6-3 7-5 6-4
+26-May-2025,Roland Garros,Clay,Tommy Paul,R128,12,112,Tommy Paul,Elmer Moller,6-7(5) 6-2 6-3 6-1
+7-May-2025,Rome Masters,Clay,Tommy Paul,SF,12,1,Jannik Sinner,Tommy Paul,1-6 6-0 6-3
+7-May-2025,Rome Masters,Clay,Tommy Paul,QF,12,31,Tommy Paul,Hubert Hurkacz,7-6(4) 6-3
+7-May-2025,Rome Masters,Clay,Tommy Paul,R16,12,8,Tommy Paul,Alex De Minaur,7-5 6-3
+7-May-2025,Rome Masters,Clay,Tommy Paul,R32,12,20,Tommy Paul,Tomas Machac,6-3 6-7(5) 6-4
+7-May-2025,Rome Masters,Clay,Tommy Paul,R64,12,56,Tommy Paul,Roberto Bautista Agut,6-1 6-4
+23-Apr-2025,Madrid Masters,Clay,Tommy Paul,R16,12,6,Jack Draper,Tommy Paul,6-2 6-2
+23-Apr-2025,Madrid Masters,Clay,Tommy Paul,R32,12,25,Tommy Paul,Karen Khachanov,6-3 3-6 6-2
+23-Apr-2025,Madrid Masters,Clay,Tommy Paul,R64,12,65,Tommy Paul,Joao Fonseca,7-6(7) 7-6(3)
+5-Apr-2026,Monte-Carlo,Clay,Alexander Bublik,R16,11,13,,,Live Scores
+5-Apr-2026,Monte-Carlo,Clay,Alexander Bublik,R32,11,199,Alexander Bublik,Gael Monfils,6-4 6-4
+18-Mar-2026,Miami Masters,Hard,Alexander Bublik,R64,11,68,Matteo Berrettini,Alexander Bublik,6-4 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Alexander Bublik,R32,10,117,Rinky Hijikata,Alexander Bublik,6-7(3) 7-6(3) 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Alexander Bublik,R64,10,62,Alexander Bublik,Vit Kopriva,3-6 7-6(3) 6-2
+23-Feb-2026,Dubai,Hard,Alexander Bublik,R16,10,25,Tallon Griekspoor,Alexander Bublik,6-3 7-6(4)
+23-Feb-2026,Dubai,Hard,Alexander Bublik,R32,10,80,Alexander Bublik,Jan Lennard Struff,6-3 6-4
+9-Feb-2026,Rotterdam,Hard,Alexander Bublik,SF,10,6,Felix Auger Aliassime,Alexander Bublik,6-1 6-2
+9-Feb-2026,Rotterdam,Hard,Alexander Bublik,QF,10,37,Alexander Bublik,Jaume Munar,6-4 6-7(4) 7-6(3)
+9-Feb-2026,Rotterdam,Hard,Alexander Bublik,R16,10,82,Alexander Bublik,Jan Lennard Struff,7-6(2) 4-6 6-3
+9-Feb-2026,Rotterdam,Hard,Alexander Bublik,R32,10,70,Alexander Bublik,Hubert Hurkacz,6-7(2) 7-6(1) 7-5
+6-Feb-2026,Davis Cup WG1 PO: KAZ vs MON,Hard,Alexander Bublik,RR,10,,Alexander Bublik,Hugo Nys,6-0 6-3
+6-Feb-2026,Davis Cup WG1 PO: KAZ vs MON,Hard,Alexander Bublik,RR,10,27,Valentin Vacherot,Alexander Bublik,7-6(4) 7-6(7)
+19-Jan-2026,Australian Open,Hard,Alexander Bublik,R16,10,6,Alex De Minaur,Alexander Bublik,6-4 6-1 6-1
+19-Jan-2026,Australian Open,Hard,Alexander Bublik,R32,10,62,Alexander Bublik,Tomas Martin Etcheverry,7-6(4) 7-6(5) 6-4
+19-Jan-2026,Australian Open,Hard,Alexander Bublik,R64,10,54,Alexander Bublik,Marton Fucsovics,7-5 6-4 7-5
+19-Jan-2026,Australian Open,Hard,Alexander Bublik,R128,10,48,Alexander Bublik,Jenson Brooksby,6-4 6-4 6-4
+5-Jan-2026,Hong Kong,Hard,Alexander Bublik,F,11,7,Alexander Bublik,Lorenzo Musetti,7-6(2) 6-3
+5-Jan-2026,Hong Kong,Hard,Alexander Bublik,SF,11,64,Alexander Bublik,Marcos Giron,3-6 6-4 6-2
+5-Jan-2026,Hong Kong,Hard,Alexander Bublik,QF,11,406,Alexander Bublik,Juncheng Shang,6-1 7-6(2)
+5-Jan-2026,Hong Kong,Hard,Alexander Bublik,R16,11,75,Alexander Bublik,Botic Van De Zandschulp,6-3 6-3
+2-Nov-2025,Metz,Hard,Alexander Bublik,R16,13,222,Vitaliy Sachko,Alexander Bublik,7-5 3-6 7-5
+27-Oct-2025,Paris Masters,Hard,Alexander Bublik,SF,16,10,Felix Auger Aliassime,Alexander Bublik,7-6(3) 6-4
+27-Oct-2025,Paris Masters,Hard,Alexander Bublik,QF,16,6,Alexander Bublik,Alex De Minaur,6-7(5) 6-4 7-5
+27-Oct-2025,Paris Masters,Hard,Alexander Bublik,R16,16,4,Alexander Bublik,Taylor Fritz,7-6(5) 6-2
+27-Oct-2025,Paris Masters,Hard,Alexander Bublik,R32,16,32,Alexander Bublik,Corentin Moutet,6-3 7-5
+27-Oct-2025,Paris Masters,Hard,Alexander Bublik,R64,16,47,Alexander Bublik,Alexei Popyrin,6-4 6-3
+20-Oct-2025,Vienna,Hard,Alexander Bublik,QF,16,2,Jannik Sinner,Alexander Bublik,6-4 6-4
+20-Oct-2025,Vienna,Hard,Alexander Bublik,R16,16,21,Alexander Bublik,Francisco Cerundolo,6-4 6-2
+20-Oct-2025,Vienna,Hard,Alexander Bublik,R32,16,75,Alexander Bublik,Alejandro Tabilo,6-4 6-4
+1-Oct-2025,Shanghai Masters,Hard,Alexander Bublik,R64,17,204,Valentin Vacherot,Alexander Bublik,3-6 6-3 6-4
+25-Sep-2025,Beijing,Hard,Alexander Bublik,R32,16,60,Adrian Mannarino,Alexander Bublik,6-3 6-2
+17-Sep-2025,Hangzhou,Hard,Alexander Bublik,F,19,88,Alexander Bublik,Valentin Royer,7-6(4) 7-6(4)
+17-Sep-2025,Hangzhou,Hard,Alexander Bublik,SF,19,196,Alexander Bublik,Yibing Wu,6-3 6-3
+17-Sep-2025,Hangzhou,Hard,Alexander Bublik,QF,19,99,Alexander Bublik,Dalibor Svrcina,6-1 6-1
+17-Sep-2025,Hangzhou,Hard,Alexander Bublik,R16,19,93,Alexander Bublik,Aleksandar Vukic,6-7(6) 6-4 6-4
+12-Sep-2025,Davis Cup WG1 R1: KOR vs KAZ,Hard,Alexander Bublik,RR,19,478,Soon Woo Kwon,Alexander Bublik,7-6(6) 3-0 RET
+25-Aug-2025,US Open,Hard,Alexander Bublik,R16,24,1,Jannik Sinner,Alexander Bublik,6-1 6-1 6-1
+25-Aug-2025,US Open,Hard,Alexander Bublik,R32,24,14,Alexander Bublik,Tommy Paul,7-6(5) 6-7(4) 6-3 6-7(5) 6-1
+25-Aug-2025,US Open,Hard,Alexander Bublik,R64,24,96,Alexander Bublik,Tristan Schoolkate,6-3 6-3 6-3
+25-Aug-2025,US Open,Hard,Alexander Bublik,R128,24,62,Alexander Bublik,Marin Cilic,6-4 6-1 6-4
+21-Jul-2025,Kitzbuhel,Clay,Alexander Bublik,F,30,100,Alexander Bublik,Arthur Cazaux,6-4 6-3
+21-Jul-2025,Kitzbuhel,Clay,Alexander Bublik,SF,30,103,Alexander Bublik,Botic Van De Zandschulp,6-3 6-4
+21-Jul-2025,Kitzbuhel,Clay,Alexander Bublik,QF,30,110,Alexander Bublik,Alexander Shevchenko,6-4 6-2
+21-Jul-2025,Kitzbuhel,Clay,Alexander Bublik,R16,30,130,Alexander Bublik,Thiago Agustin Tirante,6-3 6-4
+14-Jul-2025,Gstaad,Clay,Alexander Bublik,F,34,109,Alexander Bublik,Juan Manuel Cerundolo,6-4 4-6 6-3
+14-Jul-2025,Gstaad,Clay,Alexander Bublik,SF,34,116,Alexander Bublik,Arthur Cazaux,6-1 7-5
+14-Jul-2025,Gstaad,Clay,Alexander Bublik,QF,34,74,Alexander Bublik,Francisco Comesana,6-4 6-3
+14-Jul-2025,Gstaad,Clay,Alexander Bublik,R16,34,101,Alexander Bublik,Alexander Shevchenko,6-2 6-3
+30-Jun-2025,Wimbledon,Grass,Alexander Bublik,R128,31,55,Jaume Munar,Alexander Bublik,6-4 3-6 4-6 7-6(5) 6-2
+16-Jun-2025,Halle,Grass,Alexander Bublik,F,45,11,Alexander Bublik,Daniil Medvedev,6-3 7-6(4)
+16-Jun-2025,Halle,Grass,Alexander Bublik,SF,45,22,Alexander Bublik,Karen Khachanov,4-6 7-6(5) 6-4
+16-Jun-2025,Halle,Grass,Alexander Bublik,QF,45,23,Alexander Bublik,Tomas Machac,7-6(2) 6-3
+16-Jun-2025,Halle,Grass,Alexander Bublik,R16,45,1,Alexander Bublik,Jannik Sinner,3-6 6-3 6-4
+16-Jun-2025,Halle,Grass,Alexander Bublik,R32,45,40,Alexander Bublik,Alexandre Muller,6-4 6-4
+26-May-2025,Roland Garros,Clay,Alexander Bublik,QF,62,1,Jannik Sinner,Alexander Bublik,6-1 7-5 6-0
+26-May-2025,Roland Garros,Clay,Alexander Bublik,R16,62,5,Alexander Bublik,Jack Draper,5-7 6-3 6-2 6-4
+26-May-2025,Roland Garros,Clay,Alexander Bublik,R32,62,200,Alexander Bublik,Henrique Rocha,7-5 6-1 6-2
+26-May-2025,Roland Garros,Clay,Alexander Bublik,R64,62,9,Alexander Bublik,Alex De Minaur,2-6 2-6 6-4 6-3 6-2
+26-May-2025,Roland Garros,Clay,Alexander Bublik,R128,62,92,Alexander Bublik,James Duckworth,6-2 6-4 6-4
+18-May-2025,Hamburg,Clay,Alexander Bublik,R32,51,32,Giovanni Mpetshi Perricard,Alexander Bublik,7-6(6) 6-4
+13-May-2025,Turin CH,Clay,Alexander Bublik,F,76,73,Alexander Bublik,Bu Yunchaokete,6-3 6-3
+13-May-2025,Turin CH,Clay,Alexander Bublik,SF,76,71,Alexander Bublik,Daniel Altmaier,6-2 6-4
+13-May-2025,Turin CH,Clay,Alexander Bublik,QF,76,51,Alexander Bublik,Tomas Martin Etcheverry,6-2 3-6 7-5
+13-May-2025,Turin CH,Clay,Alexander Bublik,R16,76,194,Alexander Bublik,(Alt)Federico Arnaboldi,0-6 6-3 6-3
+13-May-2025,Turin CH,Clay,Alexander Bublik,R32,76,164,Alexander Bublik,(Alt)Matteo Gigante,6-3 6-1
+7-May-2025,Rome Masters,Clay,Alexander Bublik,R64,76,7,Casper Ruud,Alexander Bublik,6-4 4-6 6-3
+7-May-2025,Rome Masters,Clay,Alexander Bublik,R128,76,77,Alexander Bublik,Roman Safiullin,6-3 7-6(4)
+23-Apr-2025,Madrid Masters,Clay,Alexander Bublik,R16,75,23,Jakub Mensik,Alexander Bublik,6-3 6-2
+23-Apr-2025,Madrid Masters,Clay,Alexander Bublik,R32,75,8,Alexander Bublik,Andrey Rublev,6-4 0-6 6-4
+23-Apr-2025,Madrid Masters,Clay,Alexander Bublik,R64,75,26,Alexander Bublik,Alexei Popyrin,6-4 7-6(4)
+23-Apr-2025,Madrid Masters,Clay,Alexander Bublik,R128,75,38,Alexander Bublik,Alex Michelsen,7-6(2) 7-6(4)
+14-Apr-2025,Munich,Clay,Alexander Bublik,R32,78,50,Zizou Bergs,Alexander Bublik,6-7(5) 6-4 7-5
+14-Apr-2025,Munich,Clay,Alexander Bublik,Q2,78,549,Alexander Bublik,Diego Dedura Palomero,6-3 6-3
+14-Apr-2025,Munich,Clay,Alexander Bublik,Q1,78,133,Alexander Bublik,Alexander Ritschard,6-2 6-3
+5-Apr-2026,Monte-Carlo,Clay,Jiri Lehecka,R16,13,11,,,Live Scores
+5-Apr-2026,Monte-Carlo,Clay,Jiri Lehecka,R32,13,39,Jiri Lehecka,Alejandro Tabilo,4-6 7-6(4) 6-3
+5-Apr-2026,Monte-Carlo,Clay,Jiri Lehecka,R64,13,103,Jiri Lehecka,Emilio Nava,7-6(1) 6-7(8) 6-2
+18-Mar-2026,Miami Masters,Hard,Jiri Lehecka,F,22,2,Jannik Sinner,Jiri Lehecka,6-4 6-4
+18-Mar-2026,Miami Masters,Hard,Jiri Lehecka,SF,22,31,Jiri Lehecka,Arthur Fils,6-2 6-2
+18-Mar-2026,Miami Masters,Hard,Jiri Lehecka,QF,22,151,Jiri Lehecka,Martin Landaluce,7-6(1) 7-5
+18-Mar-2026,Miami Masters,Hard,Jiri Lehecka,R16,22,7,Jiri Lehecka,Taylor Fritz,6-4 6-7(4) 6-2
+18-Mar-2026,Miami Masters,Hard,Jiri Lehecka,R32,22,56,Jiri Lehecka,Ethan Quinn,6-3 7-6(6)
+18-Mar-2026,Miami Masters,Hard,Jiri Lehecka,R64,22,385,Jiri Lehecka,Moise Kouame,6-2 7-5
+4-Mar-2026,Indian Wells Masters,Hard,Jiri Lehecka,R64,23,53,Sebastian Baez,Jiri Lehecka,6-4 6-1
+23-Feb-2026,Dubai,Hard,Jiri Lehecka,QF,24,8,Felix Auger Aliassime,Jiri Lehecka,6-3 7-6(2)
+23-Feb-2026,Dubai,Hard,Jiri Lehecka,R16,24,124,Jiri Lehecka,Pablo Carreno Busta,7-6(6) 6-4
+23-Feb-2026,Dubai,Hard,Jiri Lehecka,R32,24,109,Jiri Lehecka,Luca Nardi,4-6 6-4 6-2
+16-Feb-2026,Doha,Hard,Jiri Lehecka,QF,22,40,Arthur Fils,Jiri Lehecka,6-3 6-3
+16-Feb-2026,Doha,Hard,Jiri Lehecka,R16,22,44,Jiri Lehecka,Zizou Bergs,6-2 6-1
+16-Feb-2026,Doha,Hard,Jiri Lehecka,R32,22,47,Jiri Lehecka,Jenson Brooksby,6-3 6-3
+7-Feb-2026,Davis Cup QLS R1: SWE vs CZE,Hard,Jiri Lehecka,RR,21,576,Jiri Lehecka,Dragos Nicolae Madaras,6-3 6-4
+19-Jan-2026,Australian Open,Hard,Jiri Lehecka,R128,19,198,Arthur Gea,Jiri Lehecka,7-5 7-6(1) 7-5
+4-Jan-2026,Brisbane,Hard,Jiri Lehecka,R16,19,46,Sebastian Korda,Jiri Lehecka,6-3 1-2 RET
+4-Jan-2026,Brisbane,Hard,Jiri Lehecka,R32,19,35,Jiri Lehecka,Tomas Machac,6-4 6-7(5) 6-2
+20-Nov-2025,Davis Cup Finals QF: ESP vs CZE,Hard,Jiri Lehecka,RR,17,36,Jaume Munar,Jiri Lehecka,6-3 6-4
+27-Oct-2025,Paris Masters,Hard,Jiri Lehecka,R64,18,40,Valentin Vacherot,Jiri Lehecka,6-1 6-3
+20-Oct-2025,Basel,Hard,Jiri Lehecka,R32,17,82,Botic Van De Zandschulp,Jiri Lehecka,6-2 6-2
+13-Oct-2025,Brussels,Hard,Jiri Lehecka,F,17,13,Felix Auger Aliassime,Jiri Lehecka,7-6(2) 6-7(6) 6-2
+13-Oct-2025,Brussels,Hard,Jiri Lehecka,SF,17,37,Jiri Lehecka,Giovanni Mpetshi Perricard,7-6(3) 7-6(7)
+13-Oct-2025,Brussels,Hard,Jiri Lehecka,QF,17,53,Jiri Lehecka,Benjamin Bonzi,6-7(8) 6-1 4-1 RET
+13-Oct-2025,Brussels,Hard,Jiri Lehecka,R16,17,247,Jiri Lehecka,Gilles Arnaud Bailly,6-3 6-2
+1-Oct-2025,Shanghai Masters,Hard,Jiri Lehecka,R16,19,54,Arthur Rinderknech,Jiri Lehecka,6-3 7-6(5)
+1-Oct-2025,Shanghai Masters,Hard,Jiri Lehecka,R32,19,24,Jiri Lehecka,Denis Shapovalov,6-4 6-4
+1-Oct-2025,Shanghai Masters,Hard,Jiri Lehecka,R64,19,75,Jiri Lehecka,Quentin Halys,6-4 7-5
+12-Sep-2025,Davis Cup QLS R2: USA vs CZE,Hard,Jiri Lehecka,RR,16,29,Jiri Lehecka,Frances Tiafoe,6-3 6-2
+12-Sep-2025,Davis Cup QLS R2: USA vs CZE,Hard,Jiri Lehecka,RR,16,5,Jiri Lehecka,Taylor Fritz,6-4 3-6 6-4
+25-Aug-2025,US Open,Hard,Jiri Lehecka,QF,21,2,Carlos Alcaraz,Jiri Lehecka,6-4 6-2 6-4
+25-Aug-2025,US Open,Hard,Jiri Lehecka,R16,21,77,Jiri Lehecka,Adrian Mannarino,7-6(4) 6-4 2-6 6-2
+25-Aug-2025,US Open,Hard,Jiri Lehecka,R32,21,107,Jiri Lehecka,Raphael Collignon,6-4 6-4 6-4
+25-Aug-2025,US Open,Hard,Jiri Lehecka,R64,21,59,Jiri Lehecka,Tomas Martin Etcheverry,3-6 6-0 6-2 6-4
+25-Aug-2025,US Open,Hard,Jiri Lehecka,R128,21,105,Jiri Lehecka,Borna Coric,3-6 6-4 7-6(5) 6-1
+7-Aug-2025,Cincinnati Masters,Hard,Jiri Lehecka,R16,26,6,Ben Shelton,Jiri Lehecka,6-4 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Jiri Lehecka,R32,26,85,Jiri Lehecka,Adam Walton,7-6(5) 7-6(3)
+7-Aug-2025,Cincinnati Masters,Hard,Jiri Lehecka,R64,26,116,Jiri Lehecka,Tristan Boyer,4-6 6-1 6-4
+27-Jul-2025,Canada Masters,Hard,Jiri Lehecka,R16,27,4,Taylor Fritz,Jiri Lehecka,7-6(4) 6-7(5) 7-6(5)
+27-Jul-2025,Canada Masters,Hard,Jiri Lehecka,R32,27,21,Jiri Lehecka,Arthur Fils,3-6 6-3 6-4
+27-Jul-2025,Canada Masters,Hard,Jiri Lehecka,R64,27,96,Jiri Lehecka,Mackenzie Mcdonald,7-6(2) 6-4
+21-Jul-2025,Washington,Hard,Jiri Lehecka,R16,25,13,Alex De Minaur,Jiri Lehecka,7-6(4) 6-7(6) 6-4
+21-Jul-2025,Washington,Hard,Jiri Lehecka,R32,25,153,Jiri Lehecka,Zachary Svajda,6-4 6-7(5) 6-3
+30-Jun-2025,Wimbledon,Grass,Jiri Lehecka,R64,25,73,Mattia Bellucci,Jiri Lehecka,7-6(4) 6-1 7-5
+30-Jun-2025,Wimbledon,Grass,Jiri Lehecka,R128,25,79,Jiri Lehecka,Hugo Dellien,4-6 6-2 6-2 7-6(0)
+16-Jun-2025,Queen's Club,Grass,Jiri Lehecka,F,30,2,Carlos Alcaraz,Jiri Lehecka,7-5 6-7(5) 6-2
+16-Jun-2025,Queen's Club,Grass,Jiri Lehecka,SF,30,6,Jiri Lehecka,Jack Draper,6-4 4-6 7-5
+16-Jun-2025,Queen's Club,Grass,Jiri Lehecka,QF,30,60,Jiri Lehecka,Jacob Fearnley,7-5 6-2
+16-Jun-2025,Queen's Club,Grass,Jiri Lehecka,R16,30,44,Jiri Lehecka,Gabriel Diallo,6-4 6-2
+16-Jun-2025,Queen's Club,Grass,Jiri Lehecka,R32,30,12,Jiri Lehecka,Alex De Minaur,6-4 6-2
+9-Jun-2025,Stuttgart,Grass,Jiri Lehecka,QF,33,12,Ben Shelton,Jiri Lehecka,6-4 6-4
+9-Jun-2025,Stuttgart,Grass,Jiri Lehecka,R16,33,103,Jiri Lehecka,Jan Lennard Struff,6-4 7-5
+9-Jun-2025,Stuttgart,Grass,Jiri Lehecka,R32,33,61,Jiri Lehecka,Benjamin Bonzi,6-4 6-4
+26-May-2025,Roland Garros,Clay,Jiri Lehecka,R32,34,1,Jannik Sinner,Jiri Lehecka,6-0 6-1 6-2
+26-May-2025,Roland Garros,Clay,Jiri Lehecka,R64,34,29,Jiri Lehecka,Alejandro Davidovich Fokina,6-3 3-6 6-1 6-2
+26-May-2025,Roland Garros,Clay,Jiri Lehecka,R128,34,40,Jiri Lehecka,Jordan Thompson,6-4 6-2 6-1
+18-May-2025,Hamburg,Clay,Jiri Lehecka,QF,37,55,Tomas Martin Etcheverry,Jiri Lehecka,7-5 6-3
+18-May-2025,Hamburg,Clay,Jiri Lehecka,R16,37,18,Jiri Lehecka,Francisco Cerundolo,7-5 6-2
+18-May-2025,Hamburg,Clay,Jiri Lehecka,R32,37,255,Jiri Lehecka,Borna Gojo,6-4 3-6 6-2
+7-May-2025,Rome Masters,Clay,Jiri Lehecka,R128,38,39,Alexandre Muller,Jiri Lehecka,2-6 6-3 7-6(5)
+23-Apr-2025,Madrid Masters,Clay,Jiri Lehecka,R64,27,91,Cameron Norrie,Jiri Lehecka,2-6 6-4 6-0
+18-Mar-2026,Miami Masters,Hard,Jack Draper,R64,26,67,Reilly Opelka,Jack Draper,7-6(3) 7-6(0)
+4-Mar-2026,Indian Wells Masters,Hard,Jack Draper,QF,14,11,Daniil Medvedev,Jack Draper,6-1 7-5
+4-Mar-2026,Indian Wells Masters,Hard,Jack Draper,R16,14,3,Jack Draper,Novak Djokovic,4-6 6-4 7-6(5)
+4-Mar-2026,Indian Wells Masters,Hard,Jack Draper,R32,14,20,Jack Draper,Francisco Cerundolo,6-1 7-5
+4-Mar-2026,Indian Wells Masters,Hard,Jack Draper,R64,14,93,Jack Draper,Roberto Bautista Agut,3-6 6-3 6-2
+23-Feb-2026,Dubai,Hard,Jack Draper,R16,15,31,Arthur Rinderknech,Jack Draper,7-5 6-7(4) 6-4
+23-Feb-2026,Dubai,Hard,Jack Draper,R32,15,68,Jack Draper,Quentin Halys,7-6(8) 6-3
+5-Feb-2026,Davis Cup QLS R1: NOR vs GBR,Hard,Jack Draper,RR,13,313,Jack Draper,Viktor Durasovic,6-2 6-2
+25-Aug-2025,US Open,Hard,Jack Draper,R64,5,48,Zizou Bergs,Jack Draper,W/O
+25-Aug-2025,US Open,Hard,Jack Draper,R128,5,203,Jack Draper,Federico Agustin Gomez,6-4 7-5 6-7(7) 6-2
+30-Jun-2025,Wimbledon,Grass,Jack Draper,R64,4,83,Marin Cilic,Jack Draper,6-4 6-3 1-6 6-4
+30-Jun-2025,Wimbledon,Grass,Jack Draper,R128,4,38,Jack Draper,Sebastian Baez,6-2 6-2 2-1 RET
+16-Jun-2025,Queen's Club,Grass,Jack Draper,SF,6,30,Jiri Lehecka,Jack Draper,6-4 4-6 7-5
+16-Jun-2025,Queen's Club,Grass,Jack Draper,QF,6,32,Jack Draper,Brandon Nakashima,6-4 5-7 6-4
+16-Jun-2025,Queen's Club,Grass,Jack Draper,R16,6,21,Jack Draper,Alexei Popyrin,3-6 6-2 7-6(5)
+16-Jun-2025,Queen's Club,Grass,Jack Draper,R32,6,149,Jack Draper,Jenson Brooksby,6-3 6-1
+26-May-2025,Roland Garros,Clay,Jack Draper,R16,5,62,Alexander Bublik,Jack Draper,5-7 6-3 6-2 6-4
+26-May-2025,Roland Garros,Clay,Jack Draper,R32,5,65,Jack Draper,Joao Fonseca,6-2 6-4 6-2
+26-May-2025,Roland Garros,Clay,Jack Draper,R64,5,42,Jack Draper,Gael Monfils,6-3 4-6 6-3 7-5
+26-May-2025,Roland Garros,Clay,Jack Draper,R128,5,68,Jack Draper,Mattia Bellucci,3-6 6-1 6-4 6-2
+7-May-2025,Rome Masters,Clay,Jack Draper,QF,5,3,Carlos Alcaraz,Jack Draper,6-4 6-4
+7-May-2025,Rome Masters,Clay,Jack Draper,R16,5,83,Jack Draper,Corentin Moutet,1-6 6-4 6-3
+7-May-2025,Rome Masters,Clay,Jack Draper,R32,5,92,Jack Draper,Vit Kopriva,6-4 6-3
+7-May-2025,Rome Masters,Clay,Jack Draper,R64,5,46,Jack Draper,Luciano Darderi,6-1 6-4
+23-Apr-2025,Madrid Masters,Clay,Jack Draper,F,6,15,Casper Ruud,Jack Draper,7-5 3-6 6-4
+23-Apr-2025,Madrid Masters,Clay,Jack Draper,SF,6,11,Jack Draper,Lorenzo Musetti,6-3 7-6(4)
+23-Apr-2025,Madrid Masters,Clay,Jack Draper,QF,6,44,Jack Draper,Matteo Arnaldi,6-0 6-4
+23-Apr-2025,Madrid Masters,Clay,Jack Draper,R16,6,12,Jack Draper,Tommy Paul,6-2 6-2
+23-Apr-2025,Madrid Masters,Clay,Jack Draper,R32,6,31,Jack Draper,Matteo Berrettini,7-6(2) 0-0 RET
+23-Apr-2025,Madrid Masters,Clay,Jack Draper,R64,6,34,Jack Draper,Tallon Griekspoor,6-3 6-4
+30-Mar-2026,Houston,Clay,Learner Tien,QF,22,77,Roman Andres Burruchaga,Learner Tien,7-5 6-4
+30-Mar-2026,Houston,Clay,Learner Tien,R16,22,193,Learner Tien,Nishesh Basavareddy,6-3 3-6 6-1
+18-Mar-2026,Miami Masters,Hard,Learner Tien,R64,21,57,Kamil Majchrzak,Learner Tien,6-2 4-6 6-2
+4-Mar-2026,Indian Wells Masters,Hard,Learner Tien,QF,27,2,Jannik Sinner,Learner Tien,6-1 6-2
+4-Mar-2026,Indian Wells Masters,Hard,Learner Tien,R16,27,19,Learner Tien,Alejandro Davidovich Fokina,4-6 6-1 7-6(4)
+4-Mar-2026,Indian Wells Masters,Hard,Learner Tien,R32,27,8,Learner Tien,Ben Shelton,7-6(3) 4-6 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Learner Tien,R64,27,91,Learner Tien,Adam Walton,7-6(3) 7-6(8)
+16-Feb-2026,Delray Beach,Hard,Learner Tien,SF,23,24,Tommy Paul,Learner Tien,4-6 6-4 6-3
+16-Feb-2026,Delray Beach,Hard,Learner Tien,QF,23,28,Learner Tien,Frances Tiafoe,7-6(5) 3-6 7-5
+16-Feb-2026,Delray Beach,Hard,Learner Tien,R16,23,83,Learner Tien,Miomir Kecmanovic,6-4 6-7(4) 7-6(5)
+9-Feb-2026,Dallas,Hard,Learner Tien,R32,23,61,Marin Cilic,Learner Tien,7-5 7-6(4)
+19-Jan-2026,Australian Open,Hard,Learner Tien,QF,29,3,Alexander Zverev,Learner Tien,6-3 6-7(5) 6-1 7-6(3)
+19-Jan-2026,Australian Open,Hard,Learner Tien,R16,29,12,Learner Tien,Daniil Medvedev,6-4 6-0 6-3
+19-Jan-2026,Australian Open,Hard,Learner Tien,R32,29,46,Learner Tien,Nuno Borges,7-6(9) 6-4 6-2
+19-Jan-2026,Australian Open,Hard,Learner Tien,R64,29,97,Learner Tien,Alexander Shevchenko,6-2 5-7 6-1 6-0
+19-Jan-2026,Australian Open,Hard,Learner Tien,R128,29,51,Learner Tien,Marcos Giron,7-6(2) 4-6 3-6 7-6(3) 6-2
+4-Jan-2026,Brisbane,Hard,Learner Tien,R16,26,37,Alex Michelsen,Learner Tien,6-4 6-2
+4-Jan-2026,Brisbane,Hard,Learner Tien,R32,26,48,Learner Tien,Camilo Ugo Carabelli,7-6(4) 6-3
+17-Dec-2025,Next Gen Finals,Hard,Learner Tien,F,28,116,Learner Tien,Alexander Blockx,4-3(4) 4-2 4-1
+17-Dec-2025,Next Gen Finals,Hard,Learner Tien,SF,28,167,Learner Tien,Nishesh Basavareddy,4-2 4-1 4-3(3)
+17-Dec-2025,Next Gen Finals,Hard,Learner Tien,RR,28,134,Learner Tien,Martin Landaluce,1-4 4-1 4-3(4) 4-3(2)
+17-Dec-2025,Next Gen Finals,Hard,Learner Tien,RR,28,136,Learner Tien,Nicolai Budkov Kjaer,3-4(2) 4-1 4-2 4-2
+17-Dec-2025,Next Gen Finals,Hard,Learner Tien,RR,28,168,Rafael Jodar,Learner Tien,1-4 4-3(3) 1-4 4-2 4-3(4)
+2-Nov-2025,Metz,Hard,Learner Tien,F,38,27,Learner Tien,Cameron Norrie,6-3 3-6 7-6(6)
+2-Nov-2025,Metz,Hard,Learner Tien,SF,38,222,Learner Tien,Vitaliy Sachko,6-1 6-4
+2-Nov-2025,Metz,Hard,Learner Tien,QF,38,63,Learner Tien,Matteo Berrettini,5-7 6-2 6-3
+2-Nov-2025,Metz,Hard,Learner Tien,R16,38,140,Learner Tien,Moez Echargui,7-6(3) 6-3
+2-Nov-2025,Metz,Hard,Learner Tien,R32,38,143,Learner Tien,Ugo Blanchet,6-3 6-3
+27-Oct-2025,Paris Masters,Hard,Learner Tien,R32,39,17,Andrey Rublev,Learner Tien,6-4 6-4
+27-Oct-2025,Paris Masters,Hard,Learner Tien,R64,39,46,Learner Tien,Nuno Borges,6-2 7-6(7)
+1-Oct-2025,Shanghai Masters,Hard,Learner Tien,R16,36,18,Daniil Medvedev,Learner Tien,7-6(6) 6-7(1) 6-4
+1-Oct-2025,Shanghai Masters,Hard,Learner Tien,R32,36,33,Learner Tien,Cameron Norrie,7-6(4) 6-3
+1-Oct-2025,Shanghai Masters,Hard,Learner Tien,R64,36,38,Learner Tien,Corentin Moutet,4-6 6-4 6-4
+1-Oct-2025,Shanghai Masters,Hard,Learner Tien,R128,36,47,Learner Tien,Miomir Kecmanovic,4-6 6-3 6-4
+25-Sep-2025,Beijing,Hard,Learner Tien,F,52,2,Jannik Sinner,Learner Tien,6-2 6-2
+25-Sep-2025,Beijing,Hard,Learner Tien,SF,52,18,Learner Tien,Daniil Medvedev,5-7 7-5 4-0 RET
+25-Sep-2025,Beijing,Hard,Learner Tien,QF,52,9,Learner Tien,Lorenzo Musetti,4-6 6-3 3-0 RET
+25-Sep-2025,Beijing,Hard,Learner Tien,R16,52,25,Learner Tien,Flavio Cobolli,6-3 6-2
+25-Sep-2025,Beijing,Hard,Learner Tien,R32,52,21,Learner Tien,Francisco Cerundolo,4-6 6-3 6-4
+17-Sep-2025,Hangzhou,Hard,Learner Tien,QF,54,88,Valentin Royer,Learner Tien,7-6(0) 4-6 6-2
+17-Sep-2025,Hangzhou,Hard,Learner Tien,R16,54,169,Learner Tien,Giulio Zeppieri,6-4 6-3
+17-Sep-2025,Hangzhou,Hard,Learner Tien,R32,54,82,Learner Tien,Mariano Navone,5-7 6-3 6-4
+25-Aug-2025,US Open,Hard,Learner Tien,R128,50,7,Novak Djokovic,Learner Tien,6-1 7-6(3) 6-2
+7-Aug-2025,Cincinnati Masters,Hard,Learner Tien,R64,55,11,Andrey Rublev,Learner Tien,7-6(4) 6-3
+7-Aug-2025,Cincinnati Masters,Hard,Learner Tien,R128,55,522,Learner Tien,Leandro Riedi,6-3 6-4
+27-Jul-2025,Canada Masters,Hard,Learner Tien,R16,61,34,Alex Michelsen,Learner Tien,6-3 6-3
+27-Jul-2025,Canada Masters,Hard,Learner Tien,R32,61,74,Learner Tien,Reilly Opelka,7-6(3) 6-3
+27-Jul-2025,Canada Masters,Hard,Learner Tien,R64,61,29,Learner Tien,Denis Shapovalov,7-6(4) 7-5
+27-Jul-2025,Canada Masters,Hard,Learner Tien,R128,61,136,Learner Tien,Colton Smith,6-4 7-5
+21-Jul-2025,Washington,Hard,Learner Tien,R16,67,26,Alejandro Davidovich Fokina,Learner Tien,6-2 6-2
+21-Jul-2025,Washington,Hard,Learner Tien,R32,67,10,Learner Tien,Andrey Rublev,7-5 6-2
+21-Jul-2025,Washington,Hard,Learner Tien,R64,67,116,Learner Tien,Emilio Nava,6-1 6-4
+30-Jun-2025,Wimbledon,Grass,Learner Tien,R64,62,143,Nicolas Jarry,Learner Tien,6-2 6-2 6-3
+30-Jun-2025,Wimbledon,Grass,Learner Tien,R128,62,100,Learner Tien,Nishesh Basavareddy,7-6(5) 6-3 6-2
+22-Jun-2025,Mallorca,Grass,Learner Tien,QF,67,83,Corentin Moutet,Learner Tien,6-2 7-5
+22-Jun-2025,Mallorca,Grass,Learner Tien,R16,67,10,Learner Tien,Ben Shelton,6-4 7-6(2)
+22-Jun-2025,Mallorca,Grass,Learner Tien,R32,67,219,Learner Tien,Justin Engel,6-4 6-4
+16-Jun-2025,Halle,Grass,Learner Tien,Q1,67,144,Nicolas Jarry,Learner Tien,6-3 6-4
+9-Jun-2025,Stuttgart,Grass,Learner Tien,R16,68,31,Brandon Nakashima,Learner Tien,7-6(5) 6-3
+9-Jun-2025,Stuttgart,Grass,Learner Tien,R32,68,78,Learner Tien,Yoshihito Nishioka,6-7(3) 7-6(3) 0-0 RET
+26-May-2025,Roland Garros,Clay,Learner Tien,R128,67,3,Alexander Zverev,Learner Tien,6-3 6-3 6-4
+18-May-2025,Geneva,Clay,Learner Tien,R32,67,62,Kei Nishikori,Learner Tien,4-6 6-4 6-4
+7-May-2025,Rome Masters,Clay,Learner Tien,R64,70,20,Tomas Machac,Learner Tien,6-4 6-4
+7-May-2025,Rome Masters,Clay,Learner Tien,R128,70,94,Learner Tien,Reilly Opelka,6-4 7-6(11)
+27-Apr-2025,Estoril CH,Clay,Learner Tien,R32,69,339,Gastao Elias,Learner Tien,5-7 7-5 6-4
+23-Apr-2025,Madrid Masters,Clay,Learner Tien,R128,69,45,Marcos Giron,Learner Tien,6-1 1-6 7-6(4)
+14-Apr-2025,Munich,Clay,Learner Tien,R32,69,37,Tallon Griekspoor,Learner Tien,6-4 6-2
+14-Apr-2025,Munich,Clay,Learner Tien,Q2,69,89,Learner Tien,Botic Van De Zandschulp,6-2 6-2
+14-Apr-2025,Munich,Clay,Learner Tien,Q1,69,220,Learner Tien,Henri Squire,7-5 2-6 6-0
+18-Mar-2026,Miami Masters,Hard,Jakub Mensik,R32,13,20,Frances Tiafoe,Jakub Mensik,7-6(4) 4-6 7-6(11)
+18-Mar-2026,Miami Masters,Hard,Jakub Mensik,R64,13,85,Jakub Mensik,Adam Walton,3-6 6-2 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Jakub Mensik,R32,12,19,Alejandro Davidovich Fokina,Jakub Mensik,6-2 4-6 6-2
+4-Mar-2026,Indian Wells Masters,Hard,Jakub Mensik,R64,12,69,Jakub Mensik,Marcos Giron,7-5 7-6(4)
+23-Feb-2026,Dubai,Hard,Jakub Mensik,QF,13,25,Tallon Griekspoor,Jakub Mensik,6-3 3-6 6-2
+23-Feb-2026,Dubai,Hard,Jakub Mensik,R16,13,47,Jakub Mensik,Alexei Popyrin,6-3 6-2
+23-Feb-2026,Dubai,Hard,Jakub Mensik,R32,13,73,Jakub Mensik,Hubert Hurkacz,6-4 7-6(7)
+16-Feb-2026,Doha,Hard,Jakub Mensik,SF,16,40,Arthur Fils,Jakub Mensik,6-4 7-6(4)
+16-Feb-2026,Doha,Hard,Jakub Mensik,QF,16,2,Jakub Mensik,Jannik Sinner,7-6(3) 2-6 6-3
+16-Feb-2026,Doha,Hard,Jakub Mensik,R16,16,319,Jakub Mensik,Zhizhen Zhang,6-3 6-2
+16-Feb-2026,Doha,Hard,Jakub Mensik,R32,16,124,Jakub Mensik,Jan Choinski,6-7(6) 6-2 6-4
+19-Jan-2026,Australian Open,Hard,Jakub Mensik,R16,17,4,Novak Djokovic,Jakub Mensik,W/O
+19-Jan-2026,Australian Open,Hard,Jakub Mensik,R32,17,80,Jakub Mensik,Ethan Quinn,6-2 7-6(5) 7-6(5)
+19-Jan-2026,Australian Open,Hard,Jakub Mensik,R64,17,150,Jakub Mensik,Rafael Jodar,6-2 6-4 6-4
+19-Jan-2026,Australian Open,Hard,Jakub Mensik,R128,17,94,Jakub Mensik,Pablo Carreno Busta,7-5 4-6 2-6 7-6(1) 6-3
+12-Jan-2026,Auckland,Hard,Jakub Mensik,F,18,39,Jakub Mensik,Sebastian Baez,6-3 7-6(7)
+12-Jan-2026,Auckland,Hard,Jakub Mensik,SF,18,52,Jakub Mensik,Fabian Marozsan,7-6(9) 4-6 6-1
+12-Jan-2026,Auckland,Hard,Jakub Mensik,QF,18,63,Jakub Mensik,Giovanni Mpetshi Perricard,6-4 6-2
+12-Jan-2026,Auckland,Hard,Jakub Mensik,R16,18,96,Jakub Mensik,Hamad Medjedovic,6-1 3-6 6-3
+5-Jan-2026,United Cup,Hard,Jakub Mensik,QF,18,42,Zizou Bergs,Jakub Mensik,6-2 7-6(4)
+5-Jan-2026,United Cup,Hard,Jakub Mensik,RR,18,6,Alex De Minaur,Jakub Mensik,6-4 6-1
+5-Jan-2026,United Cup,Hard,Jakub Mensik,RR,18,12,Jakub Mensik,Casper Ruud,7-5 7-6(6)
+20-Nov-2025,Davis Cup Finals QF: ESP vs CZE,Hard,Jakub Mensik,RR,19,89,Jakub Mensik,Pablo Carreno Busta,7-5 6-4
+20-Oct-2025,Basel,Hard,Jakub Mensik,R16,19,46,Joao Fonseca,Jakub Mensik,W/O
+20-Oct-2025,Basel,Hard,Jakub Mensik,R32,19,481,Jakub Mensik,Henry Bernet,7-6(1) 6-7(7) 6-3
+1-Oct-2025,Shanghai Masters,Hard,Jakub Mensik,R64,16,81,Jesper De Jong,Jakub Mensik,4-6 7-6(2) 6-4
+25-Sep-2025,Beijing,Hard,Jakub Mensik,QF,19,8,Alex De Minaur,Jakub Mensik,4-1 RET
+25-Sep-2025,Beijing,Hard,Jakub Mensik,R16,19,80,Jakub Mensik,Arthur Cazaux,6-3 2-6 6-4
+25-Sep-2025,Beijing,Hard,Jakub Mensik,R32,19,46,Jakub Mensik,Miomir Kecmanovic,7-5 6-4
+19-Sep-2025,Laver Cup,Hard,Jakub Mensik,RR,17,32,Jakub Mensik,Alex Michelsen,6-1 6-7(3) [10-8]
+19-Sep-2025,Laver Cup,Hard,Jakub Mensik,RR,17,8,Alex De Minaur,Jakub Mensik,6-3 6-4
+12-Sep-2025,Davis Cup QLS R2: USA vs CZE,Hard,Jakub Mensik,RR,17,5,Taylor Fritz,Jakub Mensik,6-4 6-3
+12-Sep-2025,Davis Cup QLS R2: USA vs CZE,Hard,Jakub Mensik,RR,17,29,Jakub Mensik,Frances Tiafoe,6-1 6-4
+25-Aug-2025,US Open,Hard,Jakub Mensik,R64,16,184,Ugo Blanchet,Jakub Mensik,6-7(2) 7-6(5) 3-6 6-4 7-6(7)
+25-Aug-2025,US Open,Hard,Jakub Mensik,R128,16,102,Jakub Mensik,Nicolas Jarry,7-6(5) 6-3 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Jakub Mensik,R32,17,98,Luca Nardi,Jakub Mensik,6-2 2-1 RET
+7-Aug-2025,Cincinnati Masters,Hard,Jakub Mensik,R64,17,82,Jakub Mensik,Ethan Quinn,6-4 6-2
+27-Jul-2025,Canada Masters,Hard,Jakub Mensik,R32,18,19,Alejandro Davidovich Fokina,Jakub Mensik,6-2 6-4
+27-Jul-2025,Canada Masters,Hard,Jakub Mensik,R64,18,123,Jakub Mensik,Tristan Boyer,6-4 6-4
+30-Jun-2025,Wimbledon,Grass,Jakub Mensik,R32,17,24,Flavio Cobolli,Jakub Mensik,6-2 6-4 6-2
+30-Jun-2025,Wimbledon,Grass,Jakub Mensik,R64,17,45,Jakub Mensik,Marcos Giron,6-4 3-6 6-4 7-6(4)
+30-Jun-2025,Wimbledon,Grass,Jakub Mensik,R128,17,86,Jakub Mensik,Hugo Gaston,6-1 4-6 6-2 6-2
+23-Jun-2025,Eastbourne,Grass,Jakub Mensik,QF,17,28,Alejandro Davidovich Fokina,Jakub Mensik,6-4 7-5
+23-Jun-2025,Eastbourne,Grass,Jakub Mensik,R16,17,72,Jakub Mensik,Reilly Opelka,7-5 6-3
+16-Jun-2025,Queen's Club,Grass,Jakub Mensik,R16,17,51,Roberto Bautista Agut,Jakub Mensik,3-6 6-3 7-5
+16-Jun-2025,Queen's Club,Grass,Jakub Mensik,R32,17,61,Jakub Mensik,Cameron Norrie,7-6(6) 1-6 6-1
+2-Jun-2025,Prostejov CH,Clay,Jakub Mensik,R32,19,225,Vitaliy Sachko,Jakub Mensik,6-4 1-6 7-5
+26-May-2025,Roland Garros,Clay,Jakub Mensik,R64,19,200,Henrique Rocha,Jakub Mensik,2-6 1-6 6-4 6-3 6-3
+26-May-2025,Roland Garros,Clay,Jakub Mensik,R128,19,39,Jakub Mensik,Alexandre Muller,7-5 6-7(5) 7-5 6-3
+7-May-2025,Rome Masters,Clay,Jakub Mensik,R16,21,31,Hubert Hurkacz,Jakub Mensik,7-6(5) 4-6 7-6(5)
+7-May-2025,Rome Masters,Clay,Jakub Mensik,R32,21,61,Jakub Mensik,Fabian Marozsan,6-4 7-6(2)
+7-May-2025,Rome Masters,Clay,Jakub Mensik,R64,21,164,Jakub Mensik,Matteo Gigante,7-6(4) 7-5
+23-Apr-2025,Madrid Masters,Clay,Jakub Mensik,QF,23,21,Francisco Cerundolo,Jakub Mensik,3-6 7-6(5) 6-2
+23-Apr-2025,Madrid Masters,Clay,Jakub Mensik,R16,23,75,Jakub Mensik,Alexander Bublik,6-3 6-2
+23-Apr-2025,Madrid Masters,Clay,Jakub Mensik,R32,23,13,Jakub Mensik,Ben Shelton,6-1 6-4
+23-Apr-2025,Madrid Masters,Clay,Jakub Mensik,R64,23,119,Jakub Mensik,Ethan Quinn,7-6(4) 6-1
+14-Apr-2025,Munich,Clay,Jakub Mensik,R32,23,131,Yannick Hanfmann,Jakub Mensik,7-6(4) 4-6 6-3
+18-Mar-2026,Miami Masters,Hard,Sebastian Korda,R16,36,151,Martin Landaluce,Sebastian Korda,2-6 7-6(6) 6-4
+18-Mar-2026,Miami Masters,Hard,Sebastian Korda,R32,36,1,Sebastian Korda,Carlos Alcaraz,6-3 5-7 6-4
+18-Mar-2026,Miami Masters,Hard,Sebastian Korda,R64,36,66,Sebastian Korda,Camilo Ugo Carabelli,6-0 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Sebastian Korda,R64,37,6,Alex De Minaur,Sebastian Korda,4-6 6-4 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Sebastian Korda,R128,37,82,Sebastian Korda,Francisco Comesana,7-5 6-0
+16-Feb-2026,Delray Beach,Hard,Sebastian Korda,F,50,24,Sebastian Korda,Tommy Paul,6-4 6-3
+16-Feb-2026,Delray Beach,Hard,Sebastian Korda,SF,50,20,Sebastian Korda,Flavio Cobolli,7-6(1) 6-1
+16-Feb-2026,Delray Beach,Hard,Sebastian Korda,QF,50,13,Sebastian Korda,Casper Ruud,4-6 6-2 6-2
+16-Feb-2026,Delray Beach,Hard,Sebastian Korda,R16,50,41,Sebastian Korda,Alex Michelsen,6-3 7-6(6)
+16-Feb-2026,Delray Beach,Hard,Sebastian Korda,R32,50,116,Sebastian Korda,Mackenzie Mcdonald,6-4 7-5
+9-Feb-2026,Dallas,Hard,Sebastian Korda,QF,53,7,Taylor Fritz,Sebastian Korda,6-7(2) 6-4 7-6(5)
+9-Feb-2026,Dallas,Hard,Sebastian Korda,R16,53,30,Sebastian Korda,Frances Tiafoe,7-5 6-1
+9-Feb-2026,Dallas,Hard,Sebastian Korda,R32,53,151,Sebastian Korda,Michael Zheng,6-3 6-4
+27-Jan-2026,San Diego CH,Hard,Sebastian Korda,F,53,143,Zachary Svajda,Sebastian Korda,6-4 7-6(5)
+27-Jan-2026,San Diego CH,Hard,Sebastian Korda,SF,53,116,Sebastian Korda,Patrick Kypson,7-6(4) 6-2
+27-Jan-2026,San Diego CH,Hard,Sebastian Korda,QF,53,145,Sebastian Korda,Liam Draxl,7-6(4) 6-4
+27-Jan-2026,San Diego CH,Hard,Sebastian Korda,R16,53,356,Sebastian Korda,Andre Ilagan,6-2 4-6 6-3
+27-Jan-2026,San Diego CH,Hard,Sebastian Korda,R32,53,397,Sebastian Korda,Daniel Milavsky,6-4 7-5
+19-Jan-2026,Australian Open,Hard,Sebastian Korda,R128,53,174,Michael Zheng,Sebastian Korda,6-4 6-4 3-6 6-7(0) 6-3
+12-Jan-2026,Adelaide,Hard,Sebastian Korda,R32,51,670,Thanasi Kokkinakis,Sebastian Korda,3-6 6-3 7-6(3)
+4-Jan-2026,Brisbane,Hard,Sebastian Korda,QF,46,37,Alex Michelsen,Sebastian Korda,6-3 7-6(7)
+4-Jan-2026,Brisbane,Hard,Sebastian Korda,R16,46,19,Sebastian Korda,Jiri Lehecka,6-3 1-2 RET
+4-Jan-2026,Brisbane,Hard,Sebastian Korda,R32,46,31,Sebastian Korda,Valentin Vacherot,7-6(1) 6-3
+2-Nov-2025,Athens,Hard,Sebastian Korda,SF,52,9,Lorenzo Musetti,Sebastian Korda,6-0 5-7 7-5
+2-Nov-2025,Athens,Hard,Sebastian Korda,QF,52,54,Sebastian Korda,Miomir Kecmanovic,6-3 6-2
+2-Nov-2025,Athens,Hard,Sebastian Korda,R16,52,58,Sebastian Korda,Damir Dzumhur,4-6 6-3 6-3
+2-Nov-2025,Athens,Hard,Sebastian Korda,R32,52,53,Sebastian Korda,Alexei Popyrin,4-6 6-3 6-4
+27-Oct-2025,Paris Masters,Hard,Sebastian Korda,R64,54,45,Lorenzo Sonego,Sebastian Korda,6-2 6-3
+27-Oct-2025,Paris Masters,Hard,Sebastian Korda,Q2,54,59,Sebastian Korda,Valentin Royer,6-2 5-7 6-4
+27-Oct-2025,Paris Masters,Hard,Sebastian Korda,Q1,54,93,Sebastian Korda,Vit Kopriva,6-2 7-5
+20-Oct-2025,Basel,Hard,Sebastian Korda,R32,56,24,Ugo Humbert,Sebastian Korda,6-3 6-4
+13-Oct-2025,Stockholm,Hard,Sebastian Korda,QF,60,12,Casper Ruud,Sebastian Korda,6-7(5) 6-4 6-4
+13-Oct-2025,Stockholm,Hard,Sebastian Korda,R16,60,75,Sebastian Korda,Kamil Majchrzak,6-4 4-6 7-5
+13-Oct-2025,Stockholm,Hard,Sebastian Korda,R32,60,48,Sebastian Korda,Alexei Popyrin,6-7(4) 6-1 6-3
+1-Oct-2025,Shanghai Masters,Hard,Sebastian Korda,R128,63,44,Zizou Bergs,Sebastian Korda,6-4 7-5
+24-Sep-2025,Tokyo,Hard,Sebastian Korda,QF,74,5,Taylor Fritz,Sebastian Korda,6-3 6-7(5) 6-3
+24-Sep-2025,Tokyo,Hard,Sebastian Korda,R16,74,273,Sebastian Korda,Sho Shimabukuro,6-1 6-4
+24-Sep-2025,Tokyo,Hard,Sebastian Korda,R32,74,48,Sebastian Korda,Marcos Giron,4-6 6-3 7-6(4)
+17-Sep-2025,Hangzhou,Hard,Sebastian Korda,R16,79,196,Yibing Wu,Sebastian Korda,4-6 6-1 6-4
+17-Sep-2025,Hangzhou,Hard,Sebastian Korda,R32,79,76,Sebastian Korda,Adam Walton,7-5 6-3
+25-Aug-2025,US Open,Hard,Sebastian Korda,R128,75,35,Cameron Norrie,Sebastian Korda,7-5 6-4 RET
+17-Aug-2025,Winston-Salem,Hard,Sebastian Korda,SF,86,94,Marton Fucsovics,Sebastian Korda,W/O
+17-Aug-2025,Winston-Salem,Hard,Sebastian Korda,QF,86,45,Sebastian Korda,Miomir Kecmanovic,6-1 6-4
+17-Aug-2025,Winston-Salem,Hard,Sebastian Korda,R16,86,78,Sebastian Korda,Kamil Majchrzak,6-7(3) 6-3 6-4
+17-Aug-2025,Winston-Salem,Hard,Sebastian Korda,R32,86,87,Sebastian Korda,Vit Kopriva,6-3 6-4
+26-May-2025,Roland Garros,Clay,Sebastian Korda,R32,23,16,Frances Tiafoe,Sebastian Korda,7-6(6) 6-3 6-4
+26-May-2025,Roland Garros,Clay,Sebastian Korda,R64,23,161,Sebastian Korda,Jenson Brooksby,6-1 6-2 7-6(2)
+26-May-2025,Roland Garros,Clay,Sebastian Korda,R128,23,45,Sebastian Korda,Luciano Darderi,6-2 4-6 6-3 6-2
+7-May-2025,Rome Masters,Clay,Sebastian Korda,R32,23,66,Jaume Munar,Sebastian Korda,6-4 6-2
+7-May-2025,Rome Masters,Clay,Sebastian Korda,R64,23,79,Sebastian Korda,Aleksandar Vukic,6-3 6-4
+23-Apr-2025,Madrid Masters,Clay,Sebastian Korda,R32,24,15,Casper Ruud,Sebastian Korda,6-3 6-3
+23-Apr-2025,Madrid Masters,Clay,Sebastian Korda,R64,24,373,Sebastian Korda,Federico Cina,6-3 3-6 6-1
+14-Apr-2025,Barcelona,Clay,Sebastian Korda,R16,24,16,Stefanos Tsitsipas,Sebastian Korda,7-6(4) 6-4
+14-Apr-2025,Barcelona,Clay,Sebastian Korda,R32,24,42,Sebastian Korda,Matteo Arnaldi,3-6 6-3 6-2
+5-Apr-2026,Monte-Carlo,Clay,Casper Ruud,R16,12,7,Felix Auger Aliassime,Casper Ruud,7-5 2-2 RET
+5-Apr-2026,Monte-Carlo,Clay,Casper Ruud,R32,12,31,Casper Ruud,Corentin Moutet,7-5 6-3
+5-Apr-2026,Monte-Carlo,Clay,Casper Ruud,R64,12,44,Casper Ruud,Alexei Popyrin,6-3 6-4
+18-Mar-2026,Miami Masters,Hard,Casper Ruud,R64,12,56,Ethan Quinn,Casper Ruud,6-4 7-6(7)
+4-Mar-2026,Indian Wells Masters,Hard,Casper Ruud,R16,13,1,Carlos Alcaraz,Casper Ruud,6-1 7-6(2)
+4-Mar-2026,Indian Wells Masters,Hard,Casper Ruud,R32,13,26,Casper Ruud,Valentin Vacherot,3-6 6-3 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Casper Ruud,R64,13,88,Casper Ruud,Alexander Shevchenko,6-1 7-6(4)
+23-Feb-2026,Acapulco,Hard,Casper Ruud,R32,12,142,Yibing Wu,Casper Ruud,7-6(2) 7-6(1)
+16-Feb-2026,Delray Beach,Hard,Casper Ruud,QF,13,50,Sebastian Korda,Casper Ruud,4-6 6-2 6-2
+16-Feb-2026,Delray Beach,Hard,Casper Ruud,R16,13,64,Casper Ruud,Marcos Giron,4-6 7-6(6) 6-4
+19-Jan-2026,Australian Open,Hard,Casper Ruud,R16,13,7,Ben Shelton,Casper Ruud,3-6 6-4 6-3 6-4
+19-Jan-2026,Australian Open,Hard,Casper Ruud,R32,13,70,Casper Ruud,Marin Cilic,6-4 6-4 3-6 7-5
+19-Jan-2026,Australian Open,Hard,Casper Ruud,R64,13,39,Casper Ruud,Jaume Munar,6-3 7-5 6-4
+19-Jan-2026,Australian Open,Hard,Casper Ruud,R128,13,76,Casper Ruud,Mattia Bellucci,6-1 6-2 6-4
+12-Jan-2026,Auckland,Hard,Casper Ruud,R16,13,52,Fabian Marozsan,Casper Ruud,6-4 6-4
+5-Jan-2026,United Cup,Hard,Casper Ruud,RR,12,6,Casper Ruud,Alex De Minaur,6-3 6-3
+5-Jan-2026,United Cup,Hard,Casper Ruud,RR,12,18,Jakub Mensik,Casper Ruud,7-5 7-6(6)
+27-Oct-2025,Paris Masters,Hard,Casper Ruud,R32,9,50,Daniel Altmaier,Casper Ruud,6-3 7-5
+20-Oct-2025,Basel,Hard,Casper Ruud,QF,11,18,Alejandro Davidovich Fokina,Casper Ruud,7-6(1) 0-0 RET
+20-Oct-2025,Basel,Hard,Casper Ruud,R16,11,158,Casper Ruud,Stan Wawrinka,6-4 7-6(5)
+20-Oct-2025,Basel,Hard,Casper Ruud,R32,11,78,Casper Ruud,Quentin Halys,6-1 7-6(3)
+13-Oct-2025,Stockholm,Hard,Casper Ruud,F,12,25,Casper Ruud,Ugo Humbert,6-2 6-3
+13-Oct-2025,Stockholm,Hard,Casper Ruud,SF,12,23,Casper Ruud,Denis Shapovalov,6-3 6-4
+13-Oct-2025,Stockholm,Hard,Casper Ruud,QF,12,60,Casper Ruud,Sebastian Korda,6-7(5) 6-4 6-4
+13-Oct-2025,Stockholm,Hard,Casper Ruud,R16,12,92,Casper Ruud,Marin Cilic,7-6(2) 6-4
+1-Oct-2025,Shanghai Masters,Hard,Casper Ruud,R64,12,44,Zizou Bergs,Casper Ruud,3-6 7-5 4-1 RET
+24-Sep-2025,Tokyo,Hard,Casper Ruud,SF,12,1,Carlos Alcaraz,Casper Ruud,3-6 6-3 6-4
+24-Sep-2025,Tokyo,Hard,Casper Ruud,QF,12,95,Casper Ruud,Aleksandar Vukic,6-3 6-2
+24-Sep-2025,Tokyo,Hard,Casper Ruud,R16,12,56,Casper Ruud,Matteo Berrettini,7-6(4) 6-2
+24-Sep-2025,Tokyo,Hard,Casper Ruud,R32,12,106,Casper Ruud,Shintaro Mochizuki,4-6 6-1 6-1
+19-Sep-2025,Laver Cup,Hard,Casper Ruud,RR,12,62,Casper Ruud,Reilly Opelka,6-4 7-6(4)
+25-Aug-2025,US Open,Hard,Casper Ruud,R64,12,107,Raphael Collignon,Casper Ruud,6-4 3-6 3-6 6-4 7-5
+25-Aug-2025,US Open,Hard,Casper Ruud,R128,12,140,Casper Ruud,Sebastian Ofner,6-1 6-2 7-6(5)
+7-Aug-2025,Cincinnati Masters,Hard,Casper Ruud,R64,13,70,Arthur Rinderknech,Casper Ruud,6-7(5) 6-4 6-2
+27-Jul-2025,Canada Masters,Hard,Casper Ruud,R16,13,16,Karen Khachanov,Casper Ruud,6-4 7-5
+27-Jul-2025,Canada Masters,Hard,Casper Ruud,R32,13,42,Casper Ruud,Nuno Borges,7-5 6-4
+27-Jul-2025,Canada Masters,Hard,Casper Ruud,R64,13,82,Casper Ruud,Roman Safiullin,6-3 6-3
+14-Jul-2025,Gstaad,Clay,Casper Ruud,QF,13,109,Juan Manuel Cerundolo,Casper Ruud,6-2 1-6 6-3
+14-Jul-2025,Gstaad,Clay,Casper Ruud,R16,13,229,Casper Ruud,Dominic Stricker,7-5 7-6(6)
+26-May-2025,Roland Garros,Clay,Casper Ruud,R64,8,41,Nuno Borges,Casper Ruud,2-6 6-4 6-1 6-0
+26-May-2025,Roland Garros,Clay,Casper Ruud,R128,8,251,Casper Ruud,Albert Ramos,6-3 6-4 6-2
+7-May-2025,Rome Masters,Clay,Casper Ruud,QF,7,1,Jannik Sinner,Casper Ruud,6-0 6-1
+7-May-2025,Rome Masters,Clay,Casper Ruud,R16,7,66,Casper Ruud,Jaume Munar,6-3 6-4
+7-May-2025,Rome Masters,Clay,Casper Ruud,R32,7,30,Casper Ruud,Matteo Berrettini,7-5 2-0 RET
+7-May-2025,Rome Masters,Clay,Casper Ruud,R64,7,76,Casper Ruud,Alexander Bublik,6-4 4-6 6-3
+23-Apr-2025,Madrid Masters,Clay,Casper Ruud,F,15,6,Casper Ruud,Jack Draper,7-5 3-6 6-4
+23-Apr-2025,Madrid Masters,Clay,Casper Ruud,SF,15,21,Casper Ruud,Francisco Cerundolo,6-4 7-5
+23-Apr-2025,Madrid Masters,Clay,Casper Ruud,QF,15,10,Casper Ruud,Daniil Medvedev,6-3 7-5
+23-Apr-2025,Madrid Masters,Clay,Casper Ruud,R16,15,4,Casper Ruud,Taylor Fritz,7-5 6-4
+23-Apr-2025,Madrid Masters,Clay,Casper Ruud,R32,15,24,Casper Ruud,Sebastian Korda,6-3 6-3
+23-Apr-2025,Madrid Masters,Clay,Casper Ruud,R64,15,76,Casper Ruud,Arthur Rinderknech,6-3 6-4
+14-Apr-2025,Barcelona,Clay,Casper Ruud,QF,10,13,Holger Rune,Casper Ruud,6-4 6-2
+14-Apr-2025,Barcelona,Clay,Casper Ruud,R16,10,72,Casper Ruud,Hamad Medjedovic,7-5 7-5
+14-Apr-2025,Barcelona,Clay,Casper Ruud,R32,10,117,Casper Ruud,Daniel Elahi Galan,6-4 6-3
+5-Apr-2026,Monte-Carlo,Clay,Joao Fonseca,QF,40,3,,,Live Scores
+5-Apr-2026,Monte-Carlo,Clay,Joao Fonseca,R16,40,90,Joao Fonseca,Matteo Berrettini,6-3 6-2
+5-Apr-2026,Monte-Carlo,Clay,Joao Fonseca,R32,40,27,Joao Fonseca,Arthur Rinderknech,7-5 4-6 6-3
+5-Apr-2026,Monte-Carlo,Clay,Joao Fonseca,R64,40,36,Joao Fonseca,Gabriel Diallo,6-2 6-3
+18-Mar-2026,Miami Masters,Hard,Joao Fonseca,R64,39,1,Carlos Alcaraz,Joao Fonseca,6-4 6-4
+18-Mar-2026,Miami Masters,Hard,Joao Fonseca,R128,39,46,Joao Fonseca,Fabian Marozsan,6-4 3-6 6-2
+4-Mar-2026,Indian Wells Masters,Hard,Joao Fonseca,R16,35,2,Jannik Sinner,Joao Fonseca,7-6(6) 7-6(4)
+4-Mar-2026,Indian Wells Masters,Hard,Joao Fonseca,R32,35,24,Joao Fonseca,Tommy Paul,6-2 6-3
+4-Mar-2026,Indian Wells Masters,Hard,Joao Fonseca,R64,35,16,Joao Fonseca,Karen Khachanov,4-6 7-6(7) 6-4
+4-Mar-2026,Indian Wells Masters,Hard,Joao Fonseca,R128,35,77,Joao Fonseca,Raphael Collignon,7-6(2) 6-4
+16-Feb-2026,Rio de Janeiro,Clay,Joao Fonseca,R16,38,91,Ignacio Buse,Joao Fonseca,5-7 6-3 6-4
+16-Feb-2026,Rio de Janeiro,Clay,Joao Fonseca,R32,38,208,Joao Fonseca,Thiago Monteiro,7-6(1) 6-1
+9-Feb-2026,Buenos Aires,Clay,Joao Fonseca,R16,33,71,Alejandro Tabilo,Joao Fonseca,6-3 3-6 7-5
+19-Jan-2026,Australian Open,Hard,Joao Fonseca,R128,32,85,Eliot Spizzirri,Joao Fonseca,6-4 2-6 6-1 6-2
+27-Oct-2025,Paris Masters,Hard,Joao Fonseca,R32,28,14,Karen Khachanov,Joao Fonseca,6-1 3-6 6-3
+27-Oct-2025,Paris Masters,Hard,Joao Fonseca,R64,28,24,Joao Fonseca,Denis Shapovalov,5-7 6-4 6-3
+20-Oct-2025,Basel,Hard,Joao Fonseca,F,46,18,Joao Fonseca,Alejandro Davidovich Fokina,6-3 6-4
+20-Oct-2025,Basel,Hard,Joao Fonseca,SF,46,42,Joao Fonseca,Jaume Munar,7-6(4) 7-5
+20-Oct-2025,Basel,Hard,Joao Fonseca,QF,46,23,Joao Fonseca,Denis Shapovalov,3-6 6-3 4-1 RET
+20-Oct-2025,Basel,Hard,Joao Fonseca,R16,46,19,Joao Fonseca,Jakub Mensik,W/O
+20-Oct-2025,Basel,Hard,Joao Fonseca,R32,46,33,Joao Fonseca,Giovanni Mpetshi Perricard,7-6(6) 6-3
+13-Oct-2025,Brussels,Hard,Joao Fonseca,R32,45,86,Botic Van De Zandschulp,Joao Fonseca,7-5 7-6(2)
+19-Sep-2025,Laver Cup,Hard,Joao Fonseca,RR,42,25,Joao Fonseca,Flavio Cobolli,6-4 6-3
+13-Sep-2025,Davis Cup WG1 R1: GRE vs BRA,Hard,Joao Fonseca,RR,42,286,Joao Fonseca,Stefanos Sakellaridis,7-5 6-3
+13-Sep-2025,Davis Cup WG1 R1: GRE vs BRA,Hard,Joao Fonseca,RR,42,27,Joao Fonseca,Stefanos Tsitsipas,6-4 3-6 7-5
+25-Aug-2025,US Open,Hard,Joao Fonseca,R64,45,22,Tomas Machac,Joao Fonseca,7-6(4) 6-2 6-3
+25-Aug-2025,US Open,Hard,Joao Fonseca,R128,45,42,Joao Fonseca,Miomir Kecmanovic,7-6(3) 7-6(5) 6-3
+7-Aug-2025,Cincinnati Masters,Hard,Joao Fonseca,R32,52,136,Terence Atmane,Joao Fonseca,6-3 6-4
+7-Aug-2025,Cincinnati Masters,Hard,Joao Fonseca,R64,52,18,Joao Fonseca,Alejandro Davidovich Fokina,6-7(4) 5-4 RET
+7-Aug-2025,Cincinnati Masters,Hard,Joao Fonseca,R128,52,75,Joao Fonseca,Bu Yunchaokete,4-6 6-2 7-5
+27-Jul-2025,Canada Masters,Hard,Joao Fonseca,R128,49,103,Tristan Schoolkate,Joao Fonseca,7-6(5) 6-4
+30-Jun-2025,Wimbledon,Grass,Joao Fonseca,R32,54,143,Nicolas Jarry,Joao Fonseca,6-3 6-4 3-6 7-6(4)
+30-Jun-2025,Wimbledon,Grass,Joao Fonseca,R64,54,101,Joao Fonseca,Jenson Brooksby,6-4 5-7 6-2 6-4
+30-Jun-2025,Wimbledon,Grass,Joao Fonseca,R128,54,51,Joao Fonseca,Jacob Fearnley,6-4 6-1 7-6(5)
+23-Jun-2025,Eastbourne,Grass,Joao Fonseca,R16,57,5,Taylor Fritz,Joao Fonseca,6-3 6-7(5) 7-5
+23-Jun-2025,Eastbourne,Grass,Joao Fonseca,R32,57,50,Joao Fonseca,Zizou Bergs,6-7(8) 6-0 6-3
+16-Jun-2025,Halle,Grass,Joao Fonseca,R32,57,24,Flavio Cobolli,Joao Fonseca,5-7 7-6(3) 7-6(8)
+26-May-2025,Roland Garros,Clay,Joao Fonseca,R32,65,5,Jack Draper,Joao Fonseca,6-2 6-4 6-2
+26-May-2025,Roland Garros,Clay,Joao Fonseca,R64,65,147,Joao Fonseca,Pierre Hugues Herbert,7-6(4) 7-6(4) 6-4
+26-May-2025,Roland Garros,Clay,Joao Fonseca,R128,65,28,Joao Fonseca,Hubert Hurkacz,6-2 6-4 6-2
+7-May-2025,Rome Masters,Clay,Joao Fonseca,R128,65,61,Fabian Marozsan,Joao Fonseca,6-3 7-6(4)
+27-Apr-2025,Estoril CH,Clay,Joao Fonseca,R32,65,93,Jesper De Jong,Joao Fonseca,6-2 7-5
+23-Apr-2025,Madrid Masters,Clay,Joao Fonseca,R64,65,12,Tommy Paul,Joao Fonseca,7-6(7) 7-6(3)
+23-Apr-2025,Madrid Masters,Clay,Joao Fonseca,R128,65,114,Joao Fonseca,Elmer Moller,6-2 6-3

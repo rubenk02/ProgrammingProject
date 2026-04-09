@@ -1,5 +1,7 @@
 import argparse
 import os
+import re
+import unicodedata
 
 import pandas as pd
 
@@ -14,8 +16,37 @@ def build_clean_matches(df):
 
     out["source_player"] = out["source_player"].where(out["source_player"].notna(), None)
 
-    source_is_winner = out["source_player"] == out["winner"]
-    source_is_loser = out["source_player"] == out["loser"]
+    # Remove rows from the raw scrape that represent live/ongoing matches.
+    # These rows are not fixed history and should not be included in the cleaned dataset.
+    live_mask = out["score"].astype(str).str.lower().str.contains("live", na=False)
+    empty_score_mask = out["score"].astype(str).str.strip().eq("")
+    out = out[~(live_mask | empty_score_mask)].copy()
+
+    def normalize_name(name):
+        if pd.isna(name):
+            return ""
+        text = str(name).strip()
+        text = unicodedata.normalize("NFKD", text)
+        text = text.encode("ascii", "ignore").decode("ascii")
+        text = re.sub(r"\s+", " ", text).strip().lower()
+        return text
+
+    def same_player(source, candidate):
+        source_norm = normalize_name(source)
+        candidate_norm = normalize_name(candidate)
+        if not source_norm or not candidate_norm:
+            return False
+        if source_norm == candidate_norm:
+            return True
+
+        source_tokens = source_norm.split()
+        candidate_tokens = candidate_norm.split()
+        if len(candidate_tokens) <= len(source_tokens):
+            return source_tokens[-len(candidate_tokens) :] == candidate_tokens
+        return candidate_tokens[-len(source_tokens) :] == source_tokens
+
+    source_is_winner = out.apply(lambda row: same_player(row["source_player"], row["winner"]), axis=1)
+    source_is_loser = out.apply(lambda row: same_player(row["source_player"], row["loser"]), axis=1)
 
     out["winner_rank_at_match"] = pd.NA
     out["loser_rank_at_match"] = pd.NA
