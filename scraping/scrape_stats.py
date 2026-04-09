@@ -30,7 +30,7 @@ def extract_stats_rows(driver):
             continue
 
         if values[0] in TARGET_SURFACES:
-            values[0] = "Overall" if values[0] == "Last 52" else values[0]
+            values[0] = "Overall last 52" if values[0] == "Last 52" else values[0]
             extracted.append(values)
 
     if header is None:

@@ -5,8 +5,8 @@ import pandas as pd
 
 
 RENAME_MAP = {
-    "match": "match_record_last52weeks",
-    "tiebreak": "tiebreak_record_last52weeks",
+    "match": "match_record",
+    "tiebreak": "tiebreak_record",
     "ace%": "ace_rate_pct",
     "1stin": "first_serve_in_pct",
     "1st%": "first_serve_points_won_pct",
@@ -24,11 +24,38 @@ def build_clean_stats(df):
     out = df.copy()
     out = out.rename(columns=RENAME_MAP)
 
+    # Parse record fields into separate numeric columns
+    if "match_record" in out.columns:
+        match_parts = out["match_record"].astype(str).str.extract(
+            r"(\d+)-(\d+)\s*\((\d+)%\)"
+        )
+        out["match_wins"] = pd.to_numeric(match_parts[0], errors="coerce").astype("Int64")
+        out["match_losses"] = pd.to_numeric(match_parts[1], errors="coerce").astype("Int64")
+        out["match_pct"] = pd.to_numeric(match_parts[2], errors="coerce").map(
+            lambda x: f"{x:.1f}%" if pd.notna(x) else pd.NA
+        )
+
+    if "tiebreak_record" in out.columns:
+        tiebreak_parts = out["tiebreak_record"].astype(str).str.extract(
+            r"(\d+)-(\d+)\s*\((\d+)%\)"
+        )
+        out["tiebreak_wins"] = pd.to_numeric(tiebreak_parts[0], errors="coerce").astype("Int64")
+        out["tiebreak_losses"] = pd.to_numeric(tiebreak_parts[1], errors="coerce").astype("Int64")
+        out["tiebreak_pct"] = pd.to_numeric(tiebreak_parts[2], errors="coerce").map(
+            lambda x: f"{x:.1f}%" if pd.notna(x) else pd.NA
+        )
+
     preferred_order = [
         "player",
         "surface",
-        "match_record_last52weeks",
-        "tiebreak_record_last52weeks",
+        "match_record",
+        "match_wins",
+        "match_losses",
+        "match_pct",
+        "tiebreak_record",
+        "tiebreak_wins",
+        "tiebreak_losses",
+        "tiebreak_pct",
         "ace_rate_pct",
         "first_serve_in_pct",
         "first_serve_points_won_pct",
