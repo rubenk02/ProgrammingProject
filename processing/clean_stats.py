@@ -27,23 +27,19 @@ def build_clean_stats(df):
     # Parse record fields into separate numeric columns
     if "match_record" in out.columns:
         match_parts = out["match_record"].astype(str).str.extract(
-            r"(\d+)-(\d+)\s*\((\d+)%\)"
+            r"(\d+)-(\d+)\s*\((\d+%|-)\)"
         )
         out["match_wins"] = pd.to_numeric(match_parts[0], errors="coerce").astype("Int64")
         out["match_losses"] = pd.to_numeric(match_parts[1], errors="coerce").astype("Int64")
-        out["match_pct"] = pd.to_numeric(match_parts[2], errors="coerce").map(
-            lambda x: f"{x:.1f}%" if pd.notna(x) else pd.NA
-        )
+        out["match_pct"] = match_parts[2].replace("-", pd.NA)
 
     if "tiebreak_record" in out.columns:
         tiebreak_parts = out["tiebreak_record"].astype(str).str.extract(
-            r"(\d+)-(\d+)\s*\((\d+)%\)"
+            r"(\d+)-(\d+)\s*\((\d+%|-)\)"
         )
         out["tiebreak_wins"] = pd.to_numeric(tiebreak_parts[0], errors="coerce").astype("Int64")
         out["tiebreak_losses"] = pd.to_numeric(tiebreak_parts[1], errors="coerce").astype("Int64")
-        out["tiebreak_pct"] = pd.to_numeric(tiebreak_parts[2], errors="coerce").map(
-            lambda x: f"{x:.1f}%" if pd.notna(x) else pd.NA
-        )
+        out["tiebreak_pct"] = tiebreak_parts[2].replace("-", pd.NA)
 
     preferred_order = [
         "player",
