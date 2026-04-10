@@ -31,7 +31,7 @@ def build_clean_stats(df):
         )
         out["match_wins"] = pd.to_numeric(match_parts[0], errors="coerce").astype("Int64")
         out["match_losses"] = pd.to_numeric(match_parts[1], errors="coerce").astype("Int64")
-        out["match_pct"] = match_parts[2].replace("-", pd.NA)
+        out["match_pct"] = match_parts[2].replace("-", 0)
 
     if "tiebreak_record" in out.columns:
         tiebreak_parts = out["tiebreak_record"].astype(str).str.extract(
@@ -39,7 +39,15 @@ def build_clean_stats(df):
         )
         out["tiebreak_wins"] = pd.to_numeric(tiebreak_parts[0], errors="coerce").astype("Int64")
         out["tiebreak_losses"] = pd.to_numeric(tiebreak_parts[1], errors="coerce").astype("Int64")
-        out["tiebreak_pct"] = tiebreak_parts[2].replace("-", pd.NA)
+        out["tiebreak_pct"] = tiebreak_parts[2].replace("-", 0)
+    stat_cols = [
+    "ace_rate_pct", "first_serve_in_pct", "first_serve_points_won_pct",
+    "second_serve_points_won_pct", "service_games_held_pct", "service_points_won_pct",
+    "return_games_won_pct", "return_points_won_pct", "total_points_won_pct", "dominance_ratio"
+    ]
+    # Stat columns use NaN (not 0) for missing surface data: player never played on that surface,
+    # so 0 would falsely imply poor performance rather than absence of data
+    out[stat_cols] = out[stat_cols].replace("-", pd.NA)
 
     preferred_order = [
         "player",

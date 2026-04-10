@@ -22,21 +22,17 @@ def clean_name_for_url(name):
     ascii_name = unicodedata.normalize("NFKD", compact).encode("ascii", "ignore").decode("ascii")
     return re.sub(r"[^A-Za-z0-9]", "", ascii_name)
 
-
 def get_top20_players():
-    response = requests.get(RANKING_URL, headers=HEADERS, timeout=20)
+    response = requests.get(
+        "https://www.tennisabstract.com/jsmatches/leadersource.js",
+        headers=HEADERS, timeout=20
+    )
     response.raise_for_status()
 
-    tree = html.fromstring(response.content)
-    rows = tree.xpath('//table[contains(@class, "tablesorter")]/tbody/tr')
-
-    players = []
-    for row in rows[:20]:
-        name = row.xpath('.//td[2]/a/text()')
-        if name:
-            players.append(normalize_text(name[0]))
-
-    return players
+    match = re.search(r"crank\s*=\s*\{(.*?)\};", response.text)
+    pairs = re.findall(r"'([^']+)':\s*(\d+)", match.group(1))
+    sorted_players = sorted(pairs, key=lambda x: int(x[1]))
+    return [name for name, _ in sorted_players[:20]]
 
 
 def create_headless_driver():
