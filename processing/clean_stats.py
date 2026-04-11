@@ -41,7 +41,7 @@ def build_clean_stats(df):
         )
         out["match_wins"] = pd.to_numeric(match_parts[0], errors="coerce").astype("Int64")
         out["match_losses"] = pd.to_numeric(match_parts[1], errors="coerce").astype("Int64")
-        out["match_pct"] = match_parts[2].replace("-", 0)
+        out["match_pct"] = match_parts[2].replace("-", pd.NA)
     
     # Parse tiebreak record fields into separate numeric columns
     # Expected format: "W-L (XX%)" or "W-L (-)"
@@ -51,7 +51,7 @@ def build_clean_stats(df):
         )
         out["tiebreak_wins"] = pd.to_numeric(tiebreak_parts[0], errors="coerce").astype("Int64")
         out["tiebreak_losses"] = pd.to_numeric(tiebreak_parts[1], errors="coerce").astype("Int64")
-        out["tiebreak_pct"] = tiebreak_parts[2].replace("-", 0)
+        out["tiebreak_pct"] = tiebreak_parts[2].replace("-", pd.NA)
     
     # Percentage/statistical columns to normalize
     stat_cols = [

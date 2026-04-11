@@ -1,4 +1,4 @@
-# ATP Tennis Data Analysis
+# Tennis Data Analysis
 
 ## Project Goal
 This project analyzes ATP tennis data to answer three research questions:
