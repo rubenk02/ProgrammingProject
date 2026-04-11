@@ -1,9 +1,10 @@
 FINAL PROJECT - TENNIS DATA PIPELINE AND ANALYSIS
 
 1) GROUP MEMBERS
-- Student 1: [Add full name]
-- Student 2: [Add full name]
-- Student 3: [Add full name]
+- Student 1: Mara Gasperetti
+- Student 2: Ruben Krieger
+- Student 3: Amine Hafaidhia
+- Student 4:
 
 2) PROJECT OVERVIEW
 This project collects ATP Top-20 player data, cleans it, and analyzes three research questions:
