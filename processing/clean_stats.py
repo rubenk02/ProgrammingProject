@@ -3,7 +3,8 @@ import os
 
 import pandas as pd
 
-
+# Mapping from raw Tennis Abstract stat column names
+# to clearer, analysis-friendly names
 RENAME_MAP = {
     "match": "match_record",
     "tiebreak": "tiebreak_record",
@@ -21,10 +22,19 @@ RENAME_MAP = {
 
 
 def build_clean_stats(df):
+    """
+    Clean and normalize surface-level player statistics. Responsibilities:
+    - Rename cryptic stat columns to readable names
+    - Parse match and tiebreak records into numeric components
+    - Normalize missing stat values
+    - Reorder columns for analysis/readability
+    """
     out = df.copy()
+    # Rename columns using the predefined mapping
     out = out.rename(columns=RENAME_MAP)
 
-    # Parse record fields into separate numeric columns
+    # Parse match record fields into separate numeric columns
+    # Expected format: "W-L (XX%)" or "W-L (-)"
     if "match_record" in out.columns:
         match_parts = out["match_record"].astype(str).str.extract(
             r"(\d+)-(\d+)\s*\((\d+%|-)\)"
@@ -32,7 +42,9 @@ def build_clean_stats(df):
         out["match_wins"] = pd.to_numeric(match_parts[0], errors="coerce").astype("Int64")
         out["match_losses"] = pd.to_numeric(match_parts[1], errors="coerce").astype("Int64")
         out["match_pct"] = match_parts[2].replace("-", 0)
-
+    
+    # Parse tiebreak record fields into separate numeric columns
+    # Expected format: "W-L (XX%)" or "W-L (-)"
     if "tiebreak_record" in out.columns:
         tiebreak_parts = out["tiebreak_record"].astype(str).str.extract(
             r"(\d+)-(\d+)\s*\((\d+%|-)\)"
@@ -40,15 +52,18 @@ def build_clean_stats(df):
         out["tiebreak_wins"] = pd.to_numeric(tiebreak_parts[0], errors="coerce").astype("Int64")
         out["tiebreak_losses"] = pd.to_numeric(tiebreak_parts[1], errors="coerce").astype("Int64")
         out["tiebreak_pct"] = tiebreak_parts[2].replace("-", 0)
+    
+    # Percentage/statistical columns to normalize
     stat_cols = [
     "ace_rate_pct", "first_serve_in_pct", "first_serve_points_won_pct",
     "second_serve_points_won_pct", "service_games_held_pct", "service_points_won_pct",
     "return_games_won_pct", "return_points_won_pct", "total_points_won_pct", "dominance_ratio"
     ]
-    # Stat columns use NaN (not 0) for missing surface data: player never played on that surface,
-    # so 0 would falsely imply poor performance rather than absence of data
+    # Stat columns use NaN (not 0) for missing surface data:
+    # a player may not have played on a surface, and 0 would imply poor performance
     out[stat_cols] = out[stat_cols].replace("-", pd.NA)
 
+    # Preferred column ordering for downstream analysis
     preferred_order = [
         "player",
         "surface",
@@ -72,6 +87,7 @@ def build_clean_stats(df):
         "dominance_ratio",
     ]
 
+    # Preserve any extra columns by appending them at the end
     existing_preferred = [c for c in preferred_order if c in out.columns]
     other_columns = [c for c in out.columns if c not in existing_preferred]
     out = out[existing_preferred + other_columns]
@@ -79,7 +95,12 @@ def build_clean_stats(df):
     return out
 
 
-def main():
+def main():    
+    """
+    Command-line entry point for cleaning player stats data.
+    Reads raw stats CSV, normalizes column names and values,
+    and writes an analysis-ready CSV.
+    """
     parser = argparse.ArgumentParser(description="Rename stats columns to readable names.")
     parser.add_argument("--input", default=None, help="Input CSV path. Default: data/stats_raw.csv")
     parser.add_argument("--output", default=None, help="Output CSV path. Default: data/stats_clean.csv")

@@ -7,11 +7,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
+# Shared helper utilities used across the project
 from common import clean_name_for_url, create_headless_driver, get_top20_players, normalize_text
 
-
+#  URL template for Tennis Abstract classic player pages
 PLAYER_URL = "https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p={player_slug}"
 
+# Columns we want in the final output CSV, in this order
 TARGET_COLUMNS = [
 	"date",
 	"tournament",
@@ -25,25 +27,45 @@ TARGET_COLUMNS = [
 	"score",
 ]
 
-def normalize_date(date_text):
+
+def normalize_date(date_text):	
+	"""
+    Normalize date strings by:
+    - Replacing non-standard dash characters with a standard hyphen
+    """
 	return normalize_text(date_text).replace("‑", "-").replace("–", "-")
 
 
 def clean_player_display(raw_name):
+	"""
+    Clean a player name as displayed in match tables. Steps:
+    - Normalize whitespace
+    - Remove country codes like [ESP], [USA]
+    - Remove leading seeding / entry markers such as:
+      (3), (Q), (WC), (LL), (PR), (ALT), (SE)
+    """
 	name = normalize_text(raw_name)
+	# Remove country code annotations like [ESP]
 	name = re.sub(r"\[[A-Z]{3}\]", "", name).strip()
 
-	# Remove seeding/entry tags like (3), (Q), (WC), etc.
+	# Iteratively remove leading seeding / entry tags
 	while True:
 		updated = re.sub(r"^\((?:\d+|Q|WC|LL|PR|ALT|SE)\)\s*", "", name)
 		if updated == name:
 			break
 		name = updated
-
 	return normalize_text(name)
 
 
-def split_matchup(matchup_text):
+def split_matchup(matchup_text):	
+	"""
+    Split a matchup string into winner and loser names.
+    Handles multiple separators used on Tennis Abstract:
+    - 'd.'
+    - 'def.'
+    - 'defeated'
+    - 'bt.'
+    """
 	text = normalize_text(matchup_text)
 	parts = re.split(r"\s+d\.\s+|\s+def\.\s+|\s+defeated\s+|\s+bt\.\s+", text, maxsplit=1)
 
@@ -55,7 +77,12 @@ def split_matchup(matchup_text):
 	return winner or None, loser or None
 
 
-def expand_player_name_if_short(value, player_name):
+def expand_player_name_if_short(value, player_name):	
+	"""
+    Expand abbreviated player references.
+    If a value matches only the last name of the source player,
+    replace it with the full player name.
+    """
 	if not value:
 		return value
 
@@ -69,6 +96,10 @@ def expand_player_name_if_short(value, player_name):
 
 
 def extract_matches_rows(driver, player_name):
+	"""
+    Extract match rows from the currently loaded player page.
+    Returns a list of dictionaries matching TARGET_COLUMNS.
+    """
 	rows = driver.find_elements(By.XPATH, "//table//tr")
 	out = []
 
@@ -76,15 +107,19 @@ def extract_matches_rows(driver, player_name):
 		tds = row.find_elements(By.TAG_NAME, "td")
 		if len(tds) < 8:
 			continue
-
+		# Normalize text for all table cells
 		cells = [normalize_text(td.text) for td in tds]
-
+		
+		# Validate date format (e.g. 12-Jan-2024)
 		date = normalize_date(cells[0])
 		if not re.match(r"^\d{1,2}-[A-Za-z]{3}-\d{4}$", date):
 			continue
-
+		
+		# Parse matchup field into winner / loser
 		matchup = cells[6]
 		winner, loser = split_matchup(matchup)
+		
+		# Expand abbreviated names if needed
 		winner = expand_player_name_if_short(winner, player_name)
 		loser = expand_player_name_if_short(loser, player_name)
 
@@ -102,11 +137,15 @@ def extract_matches_rows(driver, player_name):
 				"score": cells[7],
 			}
 		)
-
 	return out
 
 
 def scrape_player_matches(player_name, driver=None):
+	"""
+    Scrape all available match history for a single player.
+    If no driver is provided, this function creates and manages its own
+    headless browser instance.
+    """
 	slug = clean_name_for_url(player_name)
 	url = PLAYER_URL.format(player_slug=slug)
 	print(f"Scraping matches from: {url}")
@@ -117,17 +156,22 @@ def scrape_player_matches(player_name, driver=None):
 
 	try:
 		driver.get(url)
+		# Wait until table rows are present on the page
 		WebDriverWait(driver, 20).until(
 			EC.presence_of_all_elements_located((By.XPATH, "//table//tr"))
 		)
 		rows = extract_matches_rows(driver, player_name)
 		return pd.DataFrame(rows, columns=TARGET_COLUMNS)
 	finally:
+		#  Only close the browser if we created it here
 		if owns_driver and driver is not None:
 			driver.quit()
 
 
 def scrape_top20_matches():
+	"""
+    Scrape match histories for all current top-20 ATP players.
+    """
 	players = get_top20_players()
 	print(f"Top-20 players found: {len(players)}")
 
@@ -151,6 +195,11 @@ def scrape_top20_matches():
 
 
 def main():
+	"""
+    Command-line entry point. Supports:
+    - Scraping a single player (--player)
+    - Scraping all top-20 players (default)
+    """
 	parser = argparse.ArgumentParser(description="Scrape match history from a Tennis Abstract classic player page.")
 	parser.add_argument(
 		"--player",
