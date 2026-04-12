@@ -4,7 +4,6 @@ FINAL PROJECT - TENNIS DATA PIPELINE AND ANALYSIS
 - Student 1: Mara Gasperetti
 - Student 2: Ruben Krieger
 - Student 3: Amine Hafaidhia
-- Student 4:
 
 2) PROJECT OVERVIEW
 This project collects ATP Top-20 player data, cleans it, and analyzes three research questions:
@@ -22,13 +21,15 @@ This project collects ATP Top-20 player data, cleans it, and analyzes three rese
 	- clean_matches.py: cleans and standardizes raw match data
 	- clean_stats.py: cleans and standardizes raw stats data
 - data/
-	- top20_players_raw.csv: raw player profiles
+	- top20_players.csv: player profiles
 	- matches_raw.csv: raw matches
 	- stats_raw.csv: raw player stats
 	- matches_clean.csv: cleaned matches for analysis
 	- stats_clean.csv: cleaned stats for analysis
-- analysis.ipynb: notebook with data-quality checks, Q1-Q3 analysis, and figures
 - plots/: generated figures
+- analysis.ipynb: notebook with data-quality checks, Q1-Q3 analysis, and figures
+- presentation.pdf: slides used for the final presentation, summarizing the project
+- Video.mp4: recorded video presentation (≈8 minutes)
 
 4) REQUIREMENTS
 Python version:
@@ -78,7 +79,7 @@ Main final files:
 - Notebook findings are based on the available scraped period and sample.
 
 8) VIDEO PRESENTATION LINK
-- Final project video: [Add URL here]
+- Final project video: https://upm365-my.sharepoint.com/:v:/g/personal/ma_gasperetti_alumnos_upm_es/IQAle6bNwpZxTKYmnq_3bJcXAajLpXCpylyGNccafomE0tQ?e=big6vX
 
 9) QUICK TROUBLESHOOTING
 - If Selenium fails to start, check Chrome installation/version and reinstall webdriver-manager.
