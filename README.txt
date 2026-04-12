@@ -78,7 +78,7 @@ Main final files:
 - Notebook findings are based on the available scraped period and sample.
 
 8) VIDEO PRESENTATION LINK
-- Final project video: https://upm365-my.sharepoint.com/:v:/g/personal/ma_gasperetti_alumnos_upm_es/IQAle6bNwpZxTKYmnq_3bJcXAajLpXCpylyGNccafomE0tQ?e=big6vX
+- Final project video: https://upm365-my.sharepoint.com/:v:/g/personal/ma_gasperetti_alumnos_upm_es/IQC2JNp6qRnCQInxuNTwcbDxAYJFFDCFFlJ_GzLM5zYGd2c?e=RuyDsN
 
 Additional note:
 - Due to size constraints, the video file is not included in the ZIP submission.
