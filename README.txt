@@ -29,7 +29,6 @@ This project collects ATP Top-20 player data, cleans it, and analyzes three rese
 - plots/: generated figures
 - analysis.ipynb: notebook with data-quality checks, Q1-Q3 analysis, and figures
 - presentation.pdf: slides used for the final presentation, summarizing the project
-- Video.mp4: recorded video presentation (≈8 minutes)
 
 4) REQUIREMENTS
 Python version:
@@ -81,7 +80,14 @@ Main final files:
 8) VIDEO PRESENTATION LINK
 - Final project video: https://upm365-my.sharepoint.com/:v:/g/personal/ma_gasperetti_alumnos_upm_es/IQAle6bNwpZxTKYmnq_3bJcXAajLpXCpylyGNccafomE0tQ?e=big6vX
 
-9) QUICK TROUBLESHOOTING
+Additional note:
+- Due to size constraints, the video file is not included in the ZIP submission.
+- The recorded presentation (Video.mp4) is available in the GitHub repository as a backup
+
+9) GITHUB REPOSITORY LINK
+- https://github.com/rubenk02/ProgrammingProject
+
+10) QUICK TROUBLESHOOTING
 - If Selenium fails to start, check Chrome installation/version and reinstall webdriver-manager.
 - If imports fail, reinstall dependencies in the active environment.
 - If files are not found, make sure commands are executed from the project root.
